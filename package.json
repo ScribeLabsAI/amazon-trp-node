@@ -1,0 +1,54 @@
+{
+  "name": "@scribelabsai/amazon-trp",
+  "version": "1.0.0",
+  "description": "Amazon Textract Response Parser library for Node.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc",
+    "message": "git config commit.template .gitmessage",
+    "check": "tsc --noEmit",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest tests/*.ts --injectGlobals false --logHeapUsage --silent false -t",
+    "coverage": "npm run test -- --coverage",
+    "changelog": "git log --pretty=\"format:%s\" --decorate=no $(git describe --tags --abbrev=0 @^)..@ > Changelog.md",
+    "publish": "npm publish"
+  },
+  "files": [
+    "dist/**/*",
+    "package.json",
+    "LICENSE",
+    "README.md",
+    "Changelog.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScribeLabsAI/amazon-trp-node.git"
+  },
+  "keywords": [
+    "aws-textract-parser",
+    "typescript",
+    "aws-textract",
+    "aws"
+  ],
+  "author": "Emmanuel Hadoux <emmanuel@scribelabs.ai>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScribeLabsAI/amazon-trp-node/issues"
+  },
+  "homepage": "https://github.com/ScribeLabsAI/amazon-trp-node#readme",
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@types/jest": "^27.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "jest": "^27.0.1",
+    "prettier": "^2.2.1",
+    "ts-jest": "^27.0.1",
+    "typescript": "^4.3.0"
+  }
+}
