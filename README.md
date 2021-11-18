@@ -18,7 +18,7 @@ npm install @scribelabsai/amazon-trp
 
 ```typescript
 import { TextractClient, GetDocumentAnalysisCommand } from '@aws-sdk/client-textract';
-import { Document } from '@scribelabsai/amazon-trp;
+import { Document } from '@scribelabsai/amazon-trp';
 
 import type { BlockStruct } from '@scribelabsai/amazon-trp';
 

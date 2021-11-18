@@ -13,7 +13,7 @@
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest tests/*.ts --injectGlobals false --logHeapUsage --silent false -t",
     "coverage": "npm run test -- --coverage",
     "changelog": "git log --pretty=\"format:%s\" --decorate=no $(git describe --tags --abbrev=0 @^)..@ > Changelog.md",
-    "publish": "npm publish"
+    "publish": "npm publish --access public"
   },
   "files": [
     "dist/**/*",
