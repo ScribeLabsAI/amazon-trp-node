@@ -1,4 +1,3 @@
-import { readFile } from 'fs/promises';
 import { Document } from '../src';
 
 function processDocument(doc: Document) {
@@ -14,7 +13,7 @@ function processDocument(doc: Document) {
       console.log('TABLE\n====================');
       t.rows.forEach((row, r) => {
         row.cells.forEach((cell, c) => {
-          console.log(`Table[${r}][${c}] = ${cell.text}-${cell.confidence}`);
+          console.log(`Table[${r}][${c}] = ${cell.text}-${cell.confidence}-${cell.isHeader}`);
         });
       });
     });
@@ -37,10 +36,7 @@ function processDocument(doc: Document) {
   });
 }
 
-(async () => {
-  const filePath = 'tests/test-response.json';
-  const raw = await readFile(filePath, 'utf8');
-  const response = JSON.parse(raw);
-  const doc = new Document(response);
+for (const filePath of ['test-response.json', 'test-response-2.json']) {
+  const doc = await Document.fromFile(`tests/${filePath}`);
   processDocument(doc);
-})();
+}

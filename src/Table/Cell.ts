@@ -1,7 +1,7 @@
 import { Geometry } from '../Geometry';
-import { SelectionElement } from '../SelectionElement';
-import { Word } from '../Word';
-import type { BlockMap, CellBlock } from '../BlockStruct';
+import { SelectionElement } from '../SelectionElement.js';
+import { Word } from '../Word.js';
+import type { BlockMap, CellBlock } from '../BlockStruct.js';
 
 export class Cell {
   block: CellBlock;
@@ -14,6 +14,7 @@ export class Cell {
   id: string;
   content: (Word | SelectionElement)[];
   text: string;
+  isHeader: boolean;
 
   constructor(block: CellBlock, blockMap?: BlockMap) {
     this.block = block;
@@ -25,6 +26,7 @@ export class Cell {
     this.geometry = new Geometry(block.Geometry);
     this.id = block.Id;
     this.content = [];
+    this.isHeader = block.EntityTypes?.includes('COLUMN_HEADER') ?? false;
 
     const t: string[] = [];
     if (block.Relationships && blockMap) {

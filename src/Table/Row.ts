@@ -1,4 +1,4 @@
-import type { Cell } from './Cell';
+import type { Cell } from './Cell.js';
 
 export class Row {
   cells: Cell[];

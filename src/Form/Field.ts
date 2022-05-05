@@ -1,7 +1,7 @@
 import { Geometry } from '../Geometry';
-import { SelectionElement } from '../SelectionElement';
-import { Word } from '../Word';
-import type { BlockStruct, BlockMap, KeyValueSetBlock } from '../BlockStruct';
+import { SelectionElement } from '../SelectionElement.js';
+import { Word } from '../Word.js';
+import type { BlockStruct, BlockMap, KeyValueSetBlock } from '../BlockStruct.js';
 
 export class FieldKey {
   block: BlockStruct;

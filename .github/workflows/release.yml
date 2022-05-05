@@ -1,0 +1,47 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Release & Publish
+
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    tags:
+      - '*'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone
+        uses: actions/checkout@v2
+      - name: Check cache
+        id: cache
+        uses: actions/cache@v2.1.5
+        with:
+          # A list of files, directories, and wildcard patterns to cache and restore
+          path: node_modules
+          # An explicit key for restoring and saving the cache
+          key: package-${{ hashFiles('**/package.json') }}
+      - name: Use Node.js 14.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+          registry-url: 'https://npm.pkg.github.com'
+      - name: Install deps
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: npm install
+      - name: Build source
+        run: npm run build
+      - name: Changelog
+        run: npm run changelog
+      - name: Release
+        uses: ncipollo/release-action@v1
+        with:
+          bodyFile: 'Changelog.md'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          draft: true
+      - name: Publish
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

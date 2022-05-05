@@ -1,9 +1,11 @@
-export * from './BlockStruct';
-export * from './Document';
+export * from './BlockStruct.js';
+export * from './Document.js';
 export * from './Form';
 export * from './Geometry';
-export * from './Line';
-export * from './Page';
-export * from './SelectionElement';
+export * from './Line.js';
+export * from './Page.js';
+export * from './SelectionElement.js';
 export * from './Table';
-export * from './Word';
+export * from './Word.js';
+
+export type { BlockStruct } from './BlockStruct';

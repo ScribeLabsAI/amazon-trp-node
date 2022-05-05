@@ -1,4 +1,4 @@
-import type { Field } from './Field';
+import type { Field } from './Field.js';
 
 interface FieldsMap {
   [key: string]: Field;

@@ -1,3 +1,3 @@
-export * from './Cell';
-export * from './Row';
-export * from './Table';
+export * from './Cell.js';
+export * from './Row.js';
+export * from './Table.js';

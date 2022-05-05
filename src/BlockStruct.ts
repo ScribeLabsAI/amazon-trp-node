@@ -41,6 +41,19 @@ export interface CellBlock extends BlockBase {
   BlockType: 'CELL';
   RowIndex: number;
   ColumnIndex: number;
+  RowSpan: 1;
+  ColumnSpan: 1;
+  Relationships?: {
+    Type: 'CHILD';
+    Ids: string[];
+  }[];
+  EntityTypes?: ['COLUMN_HEADER'];
+}
+
+export interface MergedCellBlock extends BlockBase {
+  BlockType: 'MERGED_CELL';
+  RowIndex: number;
+  ColumnIndex: number;
   RowSpan: number;
   ColumnSpan: number;
   Relationships?: {
@@ -52,7 +65,7 @@ export interface CellBlock extends BlockBase {
 export interface TableBlock extends BlockBase {
   BlockType: 'TABLE';
   Relationships: {
-    Type: 'CHILD';
+    Type: 'CHILD' | 'MERGED_CELL';
     Ids: string[];
   }[];
 }
@@ -71,6 +84,7 @@ export type BlockStruct =
   | KeyValueSetBlock
   | LineBlock
   | CellBlock
+  | MergedCellBlock
   | TableBlock
   | PageBlock;
 
