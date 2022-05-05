@@ -1,5 +1,5 @@
-import { Geometry } from './Geometry';
-import type { WordBlock } from './BlockStruct.js';
+import { Geometry } from './Geometry/index.js';
+import type { WordBlock } from './BlockStruct';
 
 export class Word {
   confidence: number;

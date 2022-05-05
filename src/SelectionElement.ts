@@ -1,5 +1,5 @@
-import { Geometry } from './Geometry';
-import type { SelectionElementBlock } from './BlockStruct.js';
+import { Geometry } from './Geometry/index.js';
+import type { SelectionElementBlock } from './BlockStruct';
 
 export class SelectionElement {
   confidence: number;

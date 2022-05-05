@@ -1,8 +1,8 @@
-import { Form, Field } from './Form';
-import { Geometry } from './Geometry';
+import { Form, Field } from './Form/index.js';
+import { Geometry } from './Geometry/index.js';
 import { Line } from './Line.js';
-import { Table } from './Table';
-import type { BlockStruct, BlockMap } from './BlockStruct.js';
+import { Table } from './Table/index.js';
+import type { BlockStruct, BlockMap } from './BlockStruct';
 
 export class Page {
   blocks: BlockStruct[];

@@ -1,6 +1,6 @@
 import { readFile } from 'fs/promises';
 import { Page } from './Page.js';
-import type { BlockMap, BlockStruct } from './BlockStruct.js';
+import type { BlockMap, BlockStruct } from './BlockStruct';
 
 export class Document {
   pages: Page[];
