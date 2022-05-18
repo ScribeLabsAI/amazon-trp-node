@@ -1,4 +1,4 @@
-import { readFile } from 'fs/promises';
+import { readFile } from 'node:fs/promises';
 import { Page } from './Page.js';
 import type { BlockMap, BlockStruct } from './BlockStruct';
 
@@ -15,12 +15,13 @@ export class Document {
   }
 
   toString() {
+    // eslint-disable-next-line sonarjs/no-nested-template-literals
     return `\nDocument\n==========\n${this.pages.map((p) => `${p}`).join('\n\n')}`;
   }
 
   parse() {
     let blocks: BlockStruct[] = [];
-    this.blocks.forEach((b) => {
+    for (const b of this.blocks) {
       if (b.Id) {
         this.blockMap[b.Id] = b;
       }
@@ -31,7 +32,7 @@ export class Document {
         blocks = [];
       }
       blocks.push(b);
-    });
+    }
     if (blocks.length > 0) {
       this.pages.push(new Page(blocks, this.blockMap));
     }

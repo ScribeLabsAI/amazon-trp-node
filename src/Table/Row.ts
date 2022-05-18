@@ -14,4 +14,8 @@ export class Row {
   toArray(): string[] {
     return this.cells.map((c) => c.toString());
   }
+
+  isHeader(): boolean {
+    return this.cells.every((c) => c.isHeader);
+  }
 }

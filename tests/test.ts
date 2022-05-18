@@ -40,3 +40,10 @@ for (const filePath of ['test-response.json', 'test-response-2.json']) {
   const doc = await Document.fromFile(`tests/${filePath}`);
   processDocument(doc);
 }
+
+const doc = await Document.fromFile('tests/test-response-table.json');
+for (const p of doc.pages) {
+  for (const table of p.tables) {
+    console.table(table.toArray());
+  }
+}

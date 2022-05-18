@@ -30,9 +30,9 @@ export class Cell {
 
     const t: string[] = [];
     if (block.Relationships && blockMap) {
-      block.Relationships.forEach((rs) => {
+      for (const rs of block.Relationships) {
         if (rs.Type === 'CHILD') {
-          rs.Ids.forEach((id) => {
+          for (const id of rs.Ids) {
             const b = blockMap[id];
             if (b?.BlockType === 'WORD') {
               const w = new Word(b);
@@ -43,9 +43,9 @@ export class Cell {
               this.content.push(se);
               t.push(se.selectionStatus);
             }
-          });
+          }
         }
-      });
+      }
     }
     this.text = t.join(' ');
   }

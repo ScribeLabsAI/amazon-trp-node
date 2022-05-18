@@ -26,12 +26,13 @@ export class Page {
   }
 
   toString() {
+    // eslint-disable-next-line sonarjs/no-nested-template-literals
     return `Page\n==========\n${this.content.map((i) => `${i}`).join('\n')}`;
   }
 
   parse(blockMap: BlockMap) {
     const t: string[] = [];
-    this.blocks.forEach((b) => {
+    for (const b of this.blocks) {
       switch (b.BlockType) {
         case 'PAGE':
           this.geometry = new Geometry(b.Geometry);
@@ -62,14 +63,14 @@ export class Page {
           }
           break;
       }
-    });
+    }
     this.text = t.join('');
   }
 
   getLinesInReadingOrder() {
     const columns: { left: number; right: number }[] = [];
     const lines: [number, string][] = [];
-    this.lines.forEach((l) => {
+    for (const l of this.lines) {
       let column_found = false;
       for (const [ind, col] of columns.entries()) {
         const bbox_left = l.geometry.boundingBox.left;
@@ -92,7 +93,7 @@ export class Page {
           lines.push([columns.length - 1, l.text]);
         }
       }
-    });
+    }
     return lines.sort((a, b) => a[0] - b[0]);
   }
 

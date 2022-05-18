@@ -18,14 +18,14 @@ export class FieldKey {
     this.id = block.Id;
     this.content = [];
     const t: string[] = [];
-    children.forEach((id) => {
+    for (const id of children) {
       const b = blockMap[id];
       if (b?.BlockType === 'WORD') {
         const w = new Word(b);
         this.content.push(w);
         t.push(w.text);
       }
-    });
+    }
     this.text = t.join(' ');
   }
 
@@ -51,7 +51,7 @@ export class FieldValue {
     this.content = [];
 
     const t: string[] = [];
-    children.forEach((id) => {
+    for (const id of children) {
       const b = blockMap[id];
       if (b?.BlockType === 'WORD') {
         const w = new Word(b);
@@ -62,7 +62,7 @@ export class FieldValue {
         this.content.push(se);
         this.text = se.selectionStatus;
       }
-    });
+    }
 
     if (t.length > 0) {
       this.text = t.join(' ');
@@ -79,22 +79,22 @@ export class Field {
   value?: FieldValue;
 
   constructor(block: KeyValueSetBlock, blockMap: BlockMap) {
-    block.Relationships.forEach((rs) => {
+    for (const rs of block.Relationships) {
       if (rs.Type === 'CHILD') {
         this.key = new FieldKey(block, rs.Ids, blockMap);
       } else if (rs.Type === 'VALUE') {
-        rs.Ids.forEach((id) => {
+        for (const id of rs.Ids) {
           const b = blockMap[id] as KeyValueSetBlock;
           if (b.EntityTypes.includes('VALUE')) {
-            b.Relationships.forEach((rs2) => {
+            for (const rs2 of b.Relationships) {
               if (rs2.Type === 'CHILD') {
                 this.value = new FieldValue(b, rs2.Ids, blockMap);
               }
-            });
+            }
           }
-        });
+        }
       }
-    });
+    }
   }
 
   toString() {

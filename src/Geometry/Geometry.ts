@@ -1,7 +1,5 @@
-import { BoundingBox } from './BoundingBox.js';
-import { Polygon } from './Polygon.js';
-import type { BoundingBoxStruct } from './BoundingBox';
-import type { PolygonStruct } from './Polygon';
+import { BoundingBox, type BoundingBoxStruct } from './BoundingBox.js';
+import { Polygon, type PolygonStruct } from './Polygon.js';
 
 export interface GeometryStruct {
   BoundingBox: BoundingBoxStruct;

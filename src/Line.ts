@@ -17,14 +17,14 @@ export class Line {
     this.id = block.Id;
     this.text = block.Text ?? '';
     this.words = [];
-    block.Relationships.filter((rs) => rs.Type === 'CHILD').forEach((rs) => {
-      rs.Ids.forEach((id) => {
+    for (const rs of block.Relationships.filter((rs) => rs.Type === 'CHILD')) {
+      for (const id of rs.Ids) {
         const b = blockMap[id];
         if (b?.BlockType === 'WORD') {
           this.words.push(new Word(b));
         }
-      });
-    });
+      }
+    }
   }
 
   toString() {

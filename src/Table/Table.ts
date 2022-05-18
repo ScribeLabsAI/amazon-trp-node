@@ -19,9 +19,9 @@ export class Table {
 
     let ri = 1;
     let row = new Row();
-    block.Relationships.forEach((rs) => {
+    for (const rs of block.Relationships) {
       if (rs.Type === 'CHILD') {
-        rs.Ids.forEach((id) => {
+        for (const id of rs.Ids) {
           const cell = new Cell(blockMap[id] as CellBlock, blockMap);
           if (cell.rowIndex > ri) {
             this.rows.push(row);
@@ -29,15 +29,16 @@ export class Table {
             ri = cell.rowIndex;
           }
           row.cells.push(cell);
-        });
+        }
         if (row.cells.length > 0) {
           this.rows.push(row);
         }
       }
-    });
+    }
   }
 
   toString() {
+    // eslint-disable-next-line sonarjs/no-nested-template-literals
     return `Table\n==========\n${this.rows.map((r) => `Row\n==========\n${r}`).join('\n')}`;
   }
 

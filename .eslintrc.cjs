@@ -20,6 +20,9 @@ module.exports = {
     'unicorn/no-keyword-prefix': 'off',
     'unicorn/catch-error-name': ['error', { name: 'err' }],
     'unicorn/import-index': ['error', { ignoreImports: true }],
-    'unicorn/filename-case': ['error', { case: 'camelCase' }],
+    'unicorn/filename-case': ['off'],
+  },
+  parserOptions: {
+    project: './tsconfig.json',
   },
 };
