@@ -1,4 +1,4 @@
-import type { GeometryStruct } from './Geometry';
+import type { GeometryStruct } from './Geometry/index.js';
 
 interface BlockBase {
   Confidence: number;

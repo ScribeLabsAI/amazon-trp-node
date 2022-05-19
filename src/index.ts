@@ -8,4 +8,4 @@ export * from './SelectionElement.js';
 export * from './Table/index.js';
 export * from './Word.js';
 
-export type { BlockStruct } from './BlockStruct';
+export type { BlockStruct } from './BlockStruct.js';

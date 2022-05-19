@@ -1,6 +1,6 @@
 import { Geometry } from './Geometry/index.js';
 import { Word } from './Word.js';
-import type { BlockMap, LineBlock } from './BlockStruct';
+import type { BlockMap, LineBlock } from './BlockStruct.js';
 
 export class Line {
   block: LineBlock;

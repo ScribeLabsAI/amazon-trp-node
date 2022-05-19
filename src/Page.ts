@@ -2,7 +2,7 @@ import { Form, Field } from './Form/index.js';
 import { Geometry } from './Geometry/index.js';
 import { Line } from './Line.js';
 import { Table } from './Table/index.js';
-import type { BlockStruct, BlockMap } from './BlockStruct';
+import type { BlockStruct, BlockMap } from './BlockStruct.js';
 
 export class Page {
   blocks: BlockStruct[];
