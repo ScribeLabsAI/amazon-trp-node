@@ -1,4 +1,5 @@
 import { Geometry } from './Geometry/index.js';
+
 import type { WordBlock } from './BlockStruct.js';
 
 export class Word {

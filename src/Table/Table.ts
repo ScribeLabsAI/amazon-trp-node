@@ -1,7 +1,8 @@
-import { Cell } from './Cell.js';
 import { Geometry } from '../Geometry/index.js';
+import { Cell } from './Cell.js';
 import { Row } from './Row.js';
-import type { TableBlock, BlockMap, CellBlock } from '../BlockStruct.js';
+
+import type { BlockMap, CellBlock, TableBlock } from '../BlockStruct.js';
 
 export class Table {
   block: TableBlock;

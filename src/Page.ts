@@ -1,8 +1,9 @@
-import { Form, Field } from './Form/index.js';
+import { Field, Form } from './Form/index.js';
 import { Geometry } from './Geometry/index.js';
 import { Line } from './Line.js';
 import { Table } from './Table/index.js';
-import type { BlockStruct, BlockMap } from './BlockStruct.js';
+
+import type { BlockMap, BlockStruct } from './BlockStruct.js';
 
 export class Page {
   blocks: BlockStruct[];
@@ -34,22 +35,25 @@ export class Page {
     const t: string[] = [];
     for (const b of this.blocks) {
       switch (b.BlockType) {
-        case 'PAGE':
+        case 'PAGE': {
           this.geometry = new Geometry(b.Geometry);
           this.id = b.Id;
           break;
-        case 'LINE':
+        }
+        case 'LINE': {
           const l = new Line(b, blockMap);
           this.lines.push(l);
           this.content.push(l);
           t.push(l.text);
           break;
-        case 'TABLE':
+        }
+        case 'TABLE': {
           const tbl = new Table(b, blockMap);
           this.tables.push(tbl);
           this.content.push(tbl);
           break;
-        case 'KEY_VALUE_SET':
+        }
+        case 'KEY_VALUE_SET': {
           if (b.EntityTypes.includes('KEY')) {
             const f = new Field(b, blockMap);
             if (f.key) {
@@ -62,6 +66,7 @@ export class Page {
             }
           }
           break;
+        }
       }
     }
     this.text = t.join('');

@@ -1,5 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import { Page } from './Page.js';
+
 import type { BlockMap, BlockStruct } from './BlockStruct.js';
 
 export class Document {

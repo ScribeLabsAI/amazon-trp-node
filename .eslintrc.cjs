@@ -21,8 +21,9 @@ module.exports = {
     'unicorn/catch-error-name': ['error', { name: 'err' }],
     'unicorn/import-index': ['error', { ignoreImports: true }],
     'unicorn/filename-case': ['off'],
+    'sonarjs/cognitive-complexity': ['error', 30],
   },
   parserOptions: {
-    project: './tsconfig.json',
+    project: ['./tsconfig.json', './tests/tsconfig.json'],
   },
 };

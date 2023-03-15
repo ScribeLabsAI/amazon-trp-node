@@ -1,6 +1,7 @@
 import { Geometry } from '../Geometry/index.js';
 import { SelectionElement } from '../SelectionElement.js';
 import { Word } from '../Word.js';
+
 import type { BlockMap, CellBlock } from '../BlockStruct.js';
 
 export class Cell {
