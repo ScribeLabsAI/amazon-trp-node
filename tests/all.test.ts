@@ -6,9 +6,6 @@ function processDocument(doc: Document) {
     console.log('PAGE\n====================');
     for (const l of page.lines) {
       console.log(`Line: ${l.text}--${l.confidence}`);
-      for (const w of l.words) {
-        console.log(`Word: ${w.text}--${w.confidence}`);
-      }
     }
     for (const t of page.tables) {
       console.log('TABLE\n====================');

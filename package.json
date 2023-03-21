@@ -1,6 +1,6 @@
 {
   "name": "@scribelabsai/amazon-trp",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Amazon Textract Response Parser library for Node.",
   "types": "./dist/index.d.ts",
   "module": "./dist/index.js",
@@ -17,11 +17,7 @@
     "publish": "npm run build && npm publish --access public"
   },
   "files": [
-    "dist/**/*",
-    "package.json",
-    "LICENSE",
-    "README.md",
-    "Changelog.md"
+    "dist/**/*"
   ],
   "repository": {
     "type": "git",
