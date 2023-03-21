@@ -1,6 +1,7 @@
+import type { Block } from '@aws-sdk/client-textract';
 import type { GeometryStruct } from './Geometry/index.js';
 
-interface BlockBase {
+interface BlockBase extends Block {
   Confidence: number;
   Geometry: GeometryStruct;
   Id: string;

@@ -1,3 +1,4 @@
+import { describe, test } from '@jest/globals';
 import { Document } from '@scribelabsai/amazon-trp';
 
 function processDocument(doc: Document) {
@@ -36,14 +37,23 @@ function processDocument(doc: Document) {
   }
 }
 
-for (const filePath of ['test-response.json', 'test-response-2.json']) {
-  const doc = await Document.fromFile(`tests/${filePath}`);
-  processDocument(doc);
-}
+describe('Test Document', () => {
+  test('test-response.json', async () => {
+    const doc = await Document.fromFile(`tests/test-response.json`);
+    processDocument(doc);
+  });
 
-const doc = await Document.fromFile('tests/test-response-table.json');
-for (const p of doc.pages) {
-  for (const table of p.tables) {
-    console.table(table.toArray());
-  }
-}
+  test('test-response-2.json', async () => {
+    const doc = await Document.fromFile(`tests/test-response-2.json`);
+    processDocument(doc);
+  });
+
+  test('test-response-table.json', async () => {
+    const doc = await Document.fromFile('tests/test-response-table.json');
+    for (const p of doc.pages) {
+      for (const table of p.tables) {
+        console.table(table.toArray());
+      }
+    }
+  });
+});
