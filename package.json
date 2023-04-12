@@ -2,16 +2,16 @@
   "name": "@scribelabsai/amazon-trp",
   "version": "2.0.5",
   "description": "Amazon Textract Response Parser library for Node.",
+  "type": "module",
   "types": "./dist/index.d.ts",
   "module": "./dist/index.js",
   "exports": "./dist/index.js",
-  "type": "module",
   "sideEffects": false,
   "scripts": {
     "build": "tsc",
     "message": "git config commit.template .gitmessage",
     "check": "tsc --noEmit",
-    "test": "NODE_OPTIONS='--experimental-vm-modules' npx jest --injectGlobals false --logHeapUsage --silent false --passWithNoTests --detectOpenHandles --forceExit --no-cache",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' npx jest --injectGlobals false --logHeapUsage --silent false --passWithNoTests",
     "coverage": "npm run test -- --coverage"
   },
   "files": [
