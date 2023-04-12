@@ -16,6 +16,6 @@ export class Row {
   }
 
   isHeader(): boolean {
-    return this.cells.every((c) => c.isHeader);
+    return this.cells.some((c) => c.isHeader);
   }
 }
