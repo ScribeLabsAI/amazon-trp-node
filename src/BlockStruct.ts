@@ -5,6 +5,7 @@ interface BlockBase extends Block {
   Confidence: number;
   Geometry: GeometryStruct;
   Id: string;
+  Page: number;
   Text?: string;
 }
 
