@@ -16,6 +16,7 @@ export class Cell {
   content: (Word | SelectionElement)[];
   text: string;
   isHeader: boolean;
+  page: number;
 
   constructor(block: CellBlock, blockMap?: BlockMap) {
     this.block = block;
@@ -27,6 +28,7 @@ export class Cell {
     this.geometry = new Geometry(block.Geometry);
     this.id = block.Id;
     this.content = [];
+    this.page = block.Page;
     this.isHeader = block.EntityTypes?.includes('COLUMN_HEADER') ?? false;
 
     const t: string[] = [];
