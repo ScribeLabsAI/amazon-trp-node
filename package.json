@@ -1,6 +1,6 @@
 {
   "name": "@scribelabsai/amazon-trp",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Amazon Textract Response Parser library for Node.",
   "type": "module",
   "types": "./dist/index.d.ts",
