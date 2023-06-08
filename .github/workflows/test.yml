@@ -24,5 +24,7 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
       - name: Install deps
         run: npm install
+      - name: Build lib
+        run: npm run build
       - name: Run tests
         run: npm run test
