@@ -1,10 +1,13 @@
-import { BoundingBox, type BoundingBoxStruct } from './BoundingBox.js';
-import { Polygon, type PolygonStruct } from './Polygon.js';
+import { object, infer as zinfer } from 'zod';
+import { BoundingBox, BoundingBoxStructSchema } from './BoundingBox.js';
+import { Polygon, PolygonStructSchema } from './Polygon.js';
 
-export interface GeometryStruct {
-  BoundingBox: BoundingBoxStruct;
-  Polygon: PolygonStruct[];
-}
+export const GeometryStructSchema = object({
+  BoundingBox: BoundingBoxStructSchema,
+  Polygon: PolygonStructSchema.array(),
+});
+
+export type GeometryStruct = zinfer<typeof GeometryStructSchema>;
 
 export class Geometry {
   boundingBox: BoundingBox;

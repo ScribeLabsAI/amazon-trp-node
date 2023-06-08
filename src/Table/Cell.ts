@@ -28,7 +28,7 @@ export class Cell {
     this.geometry = new Geometry(block.Geometry);
     this.id = block.Id;
     this.content = [];
-    this.page = block.Page;
+    this.page = block.Page ?? -1;
     this.isHeader = block.EntityTypes?.includes('COLUMN_HEADER') ?? false;
 
     const t: string[] = [];

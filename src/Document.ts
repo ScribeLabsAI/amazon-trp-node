@@ -1,7 +1,15 @@
 import { readFile } from 'node:fs/promises';
+import { BlockStructSchema, type BlockMap, type BlockStruct } from './BlockStruct.js';
 import { Page } from './Page.js';
 
-import type { BlockMap, BlockStruct } from './BlockStruct.js';
+export class ParseError extends Error {
+  override name: 'ParseError';
+
+  constructor(message: string) {
+    super(message);
+    this.name = 'ParseError';
+  }
+}
 
 export class Document {
   pages: Page[];
@@ -9,6 +17,8 @@ export class Document {
   blockMap: BlockMap;
 
   constructor(blocks: BlockStruct[]) {
+    const ret = BlockStructSchema.array().safeParse(blocks);
+    if (!ret.success) throw new ParseError(ret.error.message);
     this.pages = [];
     this.blocks = blocks;
     this.blockMap = {};

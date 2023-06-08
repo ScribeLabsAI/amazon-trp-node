@@ -1,9 +1,13 @@
-export interface BoundingBoxStruct {
-  Width: number;
-  Height: number;
-  Left: number;
-  Top: number;
-}
+import { number, object, infer as zinfer } from 'zod';
+
+export const BoundingBoxStructSchema = object({
+  Width: number().min(0),
+  Height: number().min(0),
+  Left: number().min(0),
+  Top: number().min(0),
+});
+
+export type BoundingBoxStruct = zinfer<typeof BoundingBoxStructSchema>;
 
 export class BoundingBox {
   width: number;
