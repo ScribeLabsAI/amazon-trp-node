@@ -8,9 +8,4 @@ export default {
     '^(\\.{1,2}/.*)\\.js$': '$1',
   },
   testRegex: 'tests/.*\\.test\\.ts',
-  globals: {
-    'ts-jest': {
-      isolatedModules: true,
-    },
-  },
 };
