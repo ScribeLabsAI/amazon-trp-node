@@ -1,4 +1,4 @@
-import { literal, number, object, string, union, infer as zinfer } from 'zod';
+import { literal, number, object, string, tuple, union, infer as zinfer } from 'zod';
 import { GeometryStructSchema } from './Geometry/index.js';
 
 const BlockBaseSchema = object({
@@ -26,7 +26,7 @@ export type SelectionElementBlock = zinfer<typeof SelectionElementBlockSchema>;
 
 const KeyValueSetBlockSchema = BlockBaseSchema.extend({
   BlockType: literal('KEY_VALUE_SET'),
-  EntityTypes: literal('KEY').or(literal('VALUE')).array(),
+  EntityTypes: tuple([literal('KEY').or(literal('VALUE'))]),
   Relationships: object({
     Type: literal('VALUE').or(literal('CHILD')),
     Ids: string().array(),
@@ -56,13 +56,9 @@ const CellBlockSchema = BlockBaseSchema.extend({
     .array()
     .nullable()
     .optional(),
-  EntityTypes: union([
-    literal('COLUMN_HEADER'),
-    literal('TABLE_SUMMARY'),
-    literal('TABLE_SECTION_TITLE'),
+  EntityTypes: tuple([
+    union([literal('COLUMN_HEADER'), literal('TABLE_SUMMARY'), literal('TABLE_SECTION_TITLE')]),
   ])
-    .array()
-    .length(1)
     .nullable()
     .optional(),
 });
@@ -94,7 +90,9 @@ const TableBlockSchema = BlockBaseSchema.extend({
     ]),
     Ids: string().array(),
   }).array(),
-  EntityTypes: literal('STRUCTURED_TABLE').array().length(1).nullable().optional(),
+  EntityTypes: tuple([literal('STRUCTURED_TABLE')])
+    .nullable()
+    .optional(),
 });
 export type TableBlock = zinfer<typeof TableBlockSchema>;
 
