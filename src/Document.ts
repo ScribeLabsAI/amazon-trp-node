@@ -11,18 +11,36 @@ export class ParseError extends Error {
   }
 }
 
+export class UnknownError extends Error {
+  override name: 'UnknownError';
+
+  constructor(message: string, cause: Error) {
+    super(message, { cause });
+    this.name = 'UnknownError';
+    this.stack = cause.stack ?? '';
+  }
+}
+
 export class Document {
   pages: Page[];
   blocks: BlockStruct[];
   blockMap: BlockMap;
 
   constructor(blocks: BlockStruct[]) {
-    const ret = BlockStructSchema.array().safeParse(blocks);
-    if (!ret.success) throw new ParseError(ret.error.message);
-    this.pages = [];
-    this.blocks = blocks;
-    this.blockMap = {};
-    this.parse();
+    try {
+      const ret = BlockStructSchema.array().safeParse(blocks);
+      if (!ret.success) throw new ParseError(ret.error.message);
+      this.pages = [];
+      this.blocks = blocks;
+      this.blockMap = {};
+      this.parse();
+    } catch (err) {
+      if (err instanceof ParseError) throw err;
+      else {
+        const error = err as Error;
+        throw new UnknownError('Unknown error in Document constructor', error);
+      }
+    }
   }
 
   toString() {
@@ -54,8 +72,16 @@ export class Document {
   }
 
   static async fromFile(file: string): Promise<Document> {
-    const content = await readFile(file, { encoding: 'utf8' });
-    const blocks = JSON.parse(content) as BlockStruct[];
-    return new Document(blocks);
+    try {
+      const content = await readFile(file, { encoding: 'utf8' });
+      const blocks = JSON.parse(content) as BlockStruct[];
+      return new Document(blocks);
+    } catch (err) {
+      if (err instanceof ParseError) throw err;
+      else {
+        const error = err as Error;
+        throw new UnknownError('Unknown error in Document.fromFile', error);
+      }
+    }
   }
 }
