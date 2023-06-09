@@ -1,7 +1,11 @@
-export interface PolygonStruct {
-  X: number;
-  Y: number;
-}
+import { number, object, infer as zinfer } from 'zod';
+
+export const PolygonStructSchema = object({
+  X: number().min(0),
+  Y: number().min(0),
+});
+
+export type PolygonStruct = zinfer<typeof PolygonStructSchema>;
 
 export class Polygon {
   x: number;

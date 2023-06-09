@@ -12,7 +12,7 @@ export class FieldKey {
   text: string;
   content: Word[];
 
-  constructor(block: BlockStruct, children: string[], blockMap: BlockMap) {
+  constructor(block: KeyValueSetBlock, children: string[], blockMap: BlockMap) {
     this.block = block;
     this.confidence = block.Confidence;
     this.geometry = new Geometry(block.Geometry);
@@ -43,7 +43,7 @@ export class FieldValue {
   text: string;
   content: (Word | SelectionElement)[];
 
-  constructor(block: BlockStruct, children: string[], blockMap: BlockMap) {
+  constructor(block: KeyValueSetBlock, children: string[], blockMap: BlockMap) {
     this.block = block;
     this.confidence = block.Confidence;
     this.geometry = new Geometry(block.Geometry);
