@@ -2,6 +2,9 @@ import { readFile } from 'node:fs/promises';
 import { BlockStructSchema, type BlockMap, type BlockStruct } from './BlockStruct.js';
 import { Page } from './Page.js';
 
+/**
+ * Validation error thrown when the blocks are not valid.
+ */
 export class ParseError extends Error {
   override name: 'ParseError';
 
@@ -26,6 +29,11 @@ export class Document {
   blocks: BlockStruct[];
   blockMap: BlockMap;
 
+  /**
+   * @param blocks - Block objects as returned by Textract
+   * @throws {ParseError} - If the blocks are not valid
+   * @throws {UnknownError} - If an unknown error occurs
+   */
   constructor(blocks: BlockStruct[]) {
     try {
       const ret = BlockStructSchema.array().safeParse(blocks);
@@ -71,6 +79,13 @@ export class Document {
     return this.blockMap[blockId];
   }
 
+  /**
+   * Create a Document object from a JSON file containing the blocks.
+   * @param file - Path to a JSON file containing the blocks
+   * @throws {ParseError} - If the blocks are not valid
+   * @throws {UnknownError} - If an unknown error occurs
+   * @returns A promise that resolves to a Document object
+   */
   static async fromFile(file: string): Promise<Document> {
     try {
       const content = await readFile(file, { encoding: 'utf8' });
