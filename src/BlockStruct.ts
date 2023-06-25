@@ -90,7 +90,7 @@ const TableBlockSchema = BlockBaseSchema.extend({
     ]),
     Ids: string().array(),
   }).array(),
-  EntityTypes: tuple([literal('STRUCTURED_TABLE')])
+  EntityTypes: tuple([union([literal('STRUCTURED_TABLE'), literal('SEMI_STRUCTURED_TABLE')])])
     .nullable()
     .optional(),
 });

@@ -37,7 +37,13 @@ export class Document {
   constructor(blocks: BlockStruct[]) {
     try {
       const ret = BlockStructSchema.array().safeParse(blocks);
-      if (!ret.success) throw new ParseError(ret.error.message);
+      if (!ret.success) {
+        const issue = ret.error.issues[0];
+        if (issue && typeof issue.path[0] === 'number')
+          throw new ParseError(
+            `${issue?.path}: ${issue?.message} @${JSON.stringify(blocks[issue?.path[0]])}`
+          );
+      }
       this.pages = [];
       this.blocks = blocks;
       this.blockMap = {};
