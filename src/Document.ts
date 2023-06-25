@@ -39,9 +39,11 @@ export class Document {
       const ret = BlockStructSchema.array().safeParse(blocks);
       if (!ret.success) {
         const issue = ret.error.issues[0];
-        if (issue && typeof issue.path[0] === 'number')
+        if (issue)
           throw new ParseError(
-            `${issue?.path}: ${issue?.message} @${JSON.stringify(blocks[issue?.path[0]])}`
+            `${issue?.path}: ${issue?.message} @${
+              typeof issue.path[0] === 'number' ? JSON.stringify(blocks[issue?.path?.[0]]) : ''
+            }`
           );
       }
       this.pages = [];
