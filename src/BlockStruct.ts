@@ -19,7 +19,9 @@ const SelectionElementBlockSchema = BlockBaseSchema.extend({
   Relationships: object({
     Type: literal('CHILD'),
     Ids: string().array(),
-  }).array(),
+  })
+    .array()
+    .optional(),
   SelectionStatus: literal('SELECTED').or(literal('NOT_SELECTED')),
 });
 export type SelectionElementBlock = zinfer<typeof SelectionElementBlockSchema>;
@@ -100,7 +102,6 @@ const TableTitleBlockSchema = BlockBaseSchema.extend({
   BlockType: literal('TABLE_TITLE'),
   Relationships: object({
     Type: literal('CHILD'),
-
     Ids: string().array(),
   }).array(),
 });
@@ -110,7 +111,6 @@ const TableFooterBlockSchema = BlockBaseSchema.extend({
   BlockType: literal('TABLE_FOOTER'),
   Relationships: object({
     Type: literal('CHILD'),
-
     Ids: string().array(),
   }).array(),
 });
