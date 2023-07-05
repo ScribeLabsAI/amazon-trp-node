@@ -22,7 +22,7 @@ jobs:
       - name: Install deps
         run: npm install
       - name: Build source
-        run: npm run build
+        run: npm run build:lib && npm run build:bin
       - name: Publish
         run: npm publish --access public
         env:
