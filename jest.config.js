@@ -1,5 +1,6 @@
 export default {
   coverageDirectory: 'coverage',
+  collectCoverage: true,
   coverageProvider: 'v8',
   testEnvironment: 'node',
   preset: 'ts-jest/presets/default-esm',
