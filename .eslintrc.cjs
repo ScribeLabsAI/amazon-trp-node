@@ -32,6 +32,6 @@ module.exports = {
     'unicorn/filename-case': ['off'],
   },
   parserOptions: {
-    project: ['./tsconfig.json', './tests/tsconfig.json'],
+    project: ['./tsconfig.json', './tests/tsconfig.json', './bin/tsconfig.json'],
   },
 };
