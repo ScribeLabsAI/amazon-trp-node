@@ -21,7 +21,8 @@ const SelectionElementBlockSchema = BlockBaseSchema.extend({
     Ids: string().array(),
   })
     .array()
-    .optional(),
+    .optional()
+    .nullable(),
   SelectionStatus: literal('SELECTED').or(literal('NOT_SELECTED')),
 });
 export type SelectionElementBlock = zinfer<typeof SelectionElementBlockSchema>;

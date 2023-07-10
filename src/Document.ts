@@ -41,7 +41,7 @@ export class Document {
         const issue = ret.error.issues[0];
         if (issue)
           throw new ParseError(
-            `${issue?.path}: ${issue?.message} @${
+            `${issue?.path}: ${issue.code} - ${issue?.message} @${
               typeof issue.path[0] === 'number' ? JSON.stringify(blocks[issue?.path?.[0]]) : ''
             }`
           );
