@@ -20,7 +20,7 @@ export class FieldKey {
     this.content = [];
     const t: string[] = [];
     for (const id of children) {
-      const b = blockMap[id];
+      const b = blockMap.get(id);
       if (b?.BlockType === 'WORD') {
         const w = new Word(b);
         this.content.push(w);
@@ -53,7 +53,7 @@ export class FieldValue {
 
     const t: string[] = [];
     for (const id of children) {
-      const b = blockMap[id];
+      const b = blockMap.get(id);
       if (b?.BlockType === 'WORD') {
         const w = new Word(b);
         this.content.push(w);
@@ -85,7 +85,7 @@ export class Field {
         this.key = new FieldKey(block, rs.Ids, blockMap);
       } else if (rs.Type === 'VALUE') {
         for (const id of rs.Ids) {
-          const b = blockMap[id] as KeyValueSetBlock;
+          const b = blockMap.get(id) as KeyValueSetBlock;
           if (b.EntityTypes.includes('VALUE')) {
             for (const rs2 of b.Relationships) {
               if (rs2.Type === 'CHILD') {

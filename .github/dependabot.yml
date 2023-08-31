@@ -10,16 +10,11 @@ updates:
     schedule:
       interval: 'weekly'
     commit-message:
-      prefix: "build(deps)"
-      prefix-development: "build(dev-deps)"
-      include: "scope"
-    groups:       
+      prefix: 'build'
+      include: 'scope'
+    groups:
       dev-dependencies:
-        patterns:
-          - "@types/*"
-          - "eslint*"
-          - "prettier*"
-          - "typescript"
+        dependency-type: 'development'
   - package-ecosystem: 'github-actions' # See documentation for possible values
     directory: '/' # Location of package manifests
     schedule:

@@ -140,6 +140,4 @@ export const BlockStructSchema = union([
 ]);
 export type BlockStruct = zinfer<typeof BlockStructSchema>;
 
-export interface BlockMap {
-  [key: string]: BlockStruct;
-}
+export type BlockMap = Map<string, BlockStruct>;

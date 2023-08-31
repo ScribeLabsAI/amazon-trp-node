@@ -20,7 +20,7 @@ export class Line {
     this.words = [];
     for (const rs of block.Relationships.filter((rs) => rs.Type === 'CHILD')) {
       for (const id of rs.Ids) {
-        const b = blockMap[id];
+        const b = blockMap.get(id);
         if (b?.BlockType === 'WORD') {
           this.words.push(new Word(b));
         }

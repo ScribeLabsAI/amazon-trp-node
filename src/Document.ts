@@ -48,7 +48,7 @@ export class Document {
       }
       this.pages = [];
       this.blocks = blocks;
-      this.blockMap = {};
+      this.blockMap = new Map<string, BlockStruct>();
       this.parse();
     } catch (err) {
       if (err instanceof ParseError) throw err;
@@ -68,8 +68,10 @@ export class Document {
     let blocks: BlockStruct[] = [];
     for (const b of this.blocks) {
       if (b.Id) {
-        this.blockMap[b.Id] = b;
+        this.blockMap.set(b.Id, b);
       }
+    }
+    for (const b of this.blocks) {
       if (b.BlockType === 'PAGE') {
         if (blocks.length > 0) {
           this.pages.push(new Page(blocks, this.blockMap));
@@ -84,7 +86,7 @@ export class Document {
   }
 
   getBlockById(blockId: string) {
-    return this.blockMap[blockId];
+    return this.blockMap.get(blockId);
   }
 
   /**

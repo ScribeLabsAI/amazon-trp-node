@@ -36,7 +36,7 @@ export class Cell {
       for (const rs of block.Relationships) {
         if (rs.Type === 'CHILD') {
           for (const id of rs.Ids) {
-            const b = blockMap[id];
+            const b = blockMap.get(id);
             if (b?.BlockType === 'WORD') {
               const w = new Word(b);
               this.content.push(w);

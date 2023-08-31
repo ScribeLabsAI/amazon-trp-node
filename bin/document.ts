@@ -1,13 +1,14 @@
+import { BlockStruct, Document } from '@scribelabsai/amazon-trp';
 import { program } from 'commander';
 import { readFile } from 'node:fs/promises';
-import { BlockStruct, Document } from '@scribelabsai/amazon-trp';
 
 program
   .command('blocks')
   .description('Extracts financials from a Textract output.')
   .argument('<file>', 'Input file')
   .action(async (file: string) => {
-    const blocks = JSON.parse(await readFile(file, 'utf8')).Blocks as BlockStruct[];
+    const parsed = JSON.parse(await readFile(file, 'utf8'));
+    const blocks = (parsed.Blocks ?? parsed) as BlockStruct[];
     try {
       const doc = new Document(blocks);
       for (const [, p] of doc.pages.entries()) {
