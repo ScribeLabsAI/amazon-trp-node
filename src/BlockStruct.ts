@@ -113,7 +113,9 @@ const TableFooterBlockSchema = BlockBaseSchema.extend({
   Relationships: object({
     Type: literal('CHILD'),
     Ids: string().array(),
-  }).array(),
+  })
+    .array()
+    .nullable(),
 });
 export type TableFooterBlock = zinfer<typeof TableFooterBlockSchema>;
 
