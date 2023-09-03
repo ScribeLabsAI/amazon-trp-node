@@ -60,7 +60,12 @@ const CellBlockSchema = BlockBaseSchema.extend({
     .nullable()
     .optional(),
   EntityTypes: tuple([
-    union([literal('COLUMN_HEADER'), literal('TABLE_SUMMARY'), literal('TABLE_SECTION_TITLE')]),
+    union([
+      literal('COLUMN_HEADER'),
+      literal('TABLE_SUMMARY'),
+      literal('TABLE_SECTION_TITLE'),
+      literal('TABLE_TITLE'),
+    ]),
   ])
     .nullable()
     .optional(),
