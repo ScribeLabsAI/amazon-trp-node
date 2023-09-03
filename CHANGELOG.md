@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.5](https://github.com/ScribeLabsAI/amazon-trp-node/compare/3.0.4...3.0.5) (2023-09-03)
+
+
+### Bug Fixes
+
+* CELL type not allowing TABLE_TITLE ([3630992](https://github.com/ScribeLabsAI/amazon-trp-node/commit/3630992e8e536a9e84c46ba1d0124ed0f1c409bc))
+
 ## [3.0.4](https://github.com/ScribeLabsAI/amazon-trp-node/compare/3.0.3...3.0.4) (2023-08-31)
 
 
