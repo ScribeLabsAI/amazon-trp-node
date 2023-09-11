@@ -1,8 +1,8 @@
-import { BlockStruct, Document, ParseError, Table, UnknownError } from '@scribelabsai/amazon-trp';
 import { readdirSync } from 'node:fs';
 import { readFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import { describe, expect, it } from 'vitest';
+import { BlockStruct, Document, ParseError, Table, UnknownError } from '../src/index.js';
 
 const root = join('tests');
 const rootExpected = join('tests', 'tables');
