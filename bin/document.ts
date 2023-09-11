@@ -4,7 +4,7 @@ import { readFile } from 'node:fs/promises';
 
 program
   .command('blocks')
-  .description('Extracts financials from a Textract output.')
+  .description('Extracts tables from a Textract output.')
   .argument('<file>', 'Input file')
   .action(async (file: string) => {
     const parsed = JSON.parse(await readFile(file, 'utf8'));
