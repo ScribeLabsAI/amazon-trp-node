@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.6](https://github.com/ScribeLabsAI/amazon-trp-node/compare/3.0.5...3.0.6) (2023-09-18)
+
+
+### Bug Fixes
+
+* **zod:** add TABLE_FOOTER to schema for cell blocks ([#33](https://github.com/ScribeLabsAI/amazon-trp-node/issues/33)) ([7660ea5](https://github.com/ScribeLabsAI/amazon-trp-node/commit/7660ea5da87d7bac65aedf56df0757411c8bab00))
+
 ## [3.0.5](https://github.com/ScribeLabsAI/amazon-trp-node/compare/3.0.4...3.0.5) (2023-09-03)
 
 
