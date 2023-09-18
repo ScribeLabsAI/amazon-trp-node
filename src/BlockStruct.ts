@@ -65,6 +65,7 @@ const CellBlockSchema = BlockBaseSchema.extend({
       literal('TABLE_SUMMARY'),
       literal('TABLE_SECTION_TITLE'),
       literal('TABLE_TITLE'),
+      literal('TABLE_FOOTER'),
     ]),
   ])
     .nullable()
