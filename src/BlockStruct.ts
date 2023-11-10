@@ -130,7 +130,9 @@ const PageBlockSchema = BlockBaseSchema.extend({
   Relationships: object({
     Type: literal('CHILD'),
     Ids: string().array(),
-  }).array(),
+  })
+    .array()
+    .nullable(),
 }).omit({ Confidence: true });
 export type PageBlock = zinfer<typeof PageBlockSchema>;
 
