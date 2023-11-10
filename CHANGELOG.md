@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.7](https://github.com/ScribeLabsAI/amazon-trp-node/compare/3.0.6...3.0.7) (2023-11-10)
+
+
+### Bug Fixes
+
+* page can have null relationships ([#41](https://github.com/ScribeLabsAI/amazon-trp-node/issues/41)) ([cac65f9](https://github.com/ScribeLabsAI/amazon-trp-node/commit/cac65f9b6b328c004efc283c30d186020ea2ebf2))
+
 ## [3.0.6](https://github.com/ScribeLabsAI/amazon-trp-node/compare/3.0.5...3.0.6) (2023-09-18)
 
 
