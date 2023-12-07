@@ -42,7 +42,7 @@
     "@types/node": "^20.1.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.1.0",
-    "@vitest/coverage-v8": "^0.34.4",
+    "@vitest/coverage-v8": "^1.0.2",
     "dotenv": "^16.0.0",
     "eslint": "^8.0.0",
     "eslint-config-prettier": "^9.0.0",
@@ -53,7 +53,7 @@
     "prettier": "^3.0.0",
     "release-please": "^16.3.1",
     "typescript": "^5.0.0",
-    "vitest": "^0.34.4"
+    "vitest": "^1.0.2"
   },
   "dependencies": {
     "commander": "^11.0.0",
