@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.8](https://github.com/ScribeLabsAI/amazon-trp-node/compare/3.0.7...3.0.8) (2024-01-10)
+
+
+### Bug Fixes
+
+* ignore missing ids ([33a413e](https://github.com/ScribeLabsAI/amazon-trp-node/commit/33a413e87745c877c61ba1cbfdc1f83b6bb0c9b2))
+
 ## [3.0.7](https://github.com/ScribeLabsAI/amazon-trp-node/compare/3.0.6...3.0.7) (2023-11-10)
 
 
