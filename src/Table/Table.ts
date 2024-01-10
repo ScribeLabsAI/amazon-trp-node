@@ -23,6 +23,9 @@ export class Table {
     for (const rs of block.Relationships) {
       if (rs.Type === 'CHILD') {
         for (const id of rs.Ids) {
+          if (blockMap.get(id)?.BlockType !== 'CELL') {
+            continue;
+          }
           const cell = new Cell(blockMap.get(id) as CellBlock, blockMap);
           if (cell.rowIndex > ri) {
             this.rows.push(row);
