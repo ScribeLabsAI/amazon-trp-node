@@ -41,6 +41,9 @@ export class Cell {
               const w = new Word(b);
               this.content.push(w);
               t.push(w.text);
+            } else if (b?.BlockType === 'SELECTION_ELEMENT') {
+              const se = new SelectionElement(b);
+              this.content.push(se);
             }
           }
         }
