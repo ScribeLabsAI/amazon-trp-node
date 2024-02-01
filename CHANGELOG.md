@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.0.0](https://github.com/ScribeLabsAI/amazon-trp-node/compare/3.0.8...4.0.0) (2024-02-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* cell text contains form item status ([#49](https://github.com/ScribeLabsAI/amazon-trp-node/issues/49))
+
+### Bug Fixes
+
+* cell text contains form item status ([#49](https://github.com/ScribeLabsAI/amazon-trp-node/issues/49)) ([5e8dfd8](https://github.com/ScribeLabsAI/amazon-trp-node/commit/5e8dfd87af1506cecf8381ca2a7020bbdb989546))
+
 ## [3.0.8](https://github.com/ScribeLabsAI/amazon-trp-node/compare/3.0.7...3.0.8) (2024-01-10)
 
 
