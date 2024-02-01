@@ -44,7 +44,6 @@ export class Cell {
             } else if (b?.BlockType === 'SELECTION_ELEMENT') {
               const se = new SelectionElement(b);
               this.content.push(se);
-              t.push(se.selectionStatus);
             }
           }
         }
