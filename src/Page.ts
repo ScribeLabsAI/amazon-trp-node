@@ -14,8 +14,14 @@ export class Page {
   geometry?: Geometry;
   id: string;
   content: (Line | Table | Form | Field)[];
+  options: { expandMergedTableCells?: boolean } | undefined;
 
-  constructor(blocks: BlockStruct[], blockMap: BlockMap) {
+  constructor(
+    blocks: BlockStruct[],
+    blockMap: BlockMap,
+    options?: { expandMergedTableCells?: boolean }
+  ) {
+    this.options = options;
     this.blocks = blocks;
     this.text = '';
     this.lines = [];
@@ -48,7 +54,7 @@ export class Page {
           break;
         }
         case 'TABLE': {
-          const tbl = new Table(b, blockMap);
+          const tbl = new Table(b, blockMap, this.options);
           this.tables.push(tbl);
           this.content.push(tbl);
           break;

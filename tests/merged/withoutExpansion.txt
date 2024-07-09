@@ -1,0 +1,17 @@
+Table
+==========
+Row
+==========
+[][Old][][New][]
+Row
+==========
+[][Revenue][Profit][Revenue][Profit]
+Row
+==========
+[January][1][2][3][4]
+Row
+==========
+[February][5][6][7][8]
+Row
+==========
+[][9][10][11][12]

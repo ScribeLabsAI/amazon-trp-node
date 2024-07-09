@@ -28,13 +28,15 @@ export class Document {
   pages: Page[];
   blocks: BlockStruct[];
   blockMap: BlockMap;
+  options: { expandMergedTableCells?: boolean } | undefined;
 
   /**
    * @param blocks - Block objects as returned by Textract
    * @throws {ParseError} - If the blocks are not valid
    * @throws {UnknownError} - If an unknown error occurs
    */
-  constructor(blocks: BlockStruct[]) {
+  constructor(blocks: BlockStruct[], options?: { expandMergedTableCells?: boolean }) {
+    this.options = options;
     try {
       const ret = BlockStructSchema.array().safeParse(blocks);
       if (!ret.success) {
@@ -74,14 +76,14 @@ export class Document {
     for (const b of this.blocks) {
       if (b.BlockType === 'PAGE') {
         if (blocks.length > 0) {
-          this.pages.push(new Page(blocks, this.blockMap));
+          this.pages.push(new Page(blocks, this.blockMap, this.options));
         }
         blocks = [];
       }
       blocks.push(b);
     }
     if (blocks.length > 0) {
-      this.pages.push(new Page(blocks, this.blockMap));
+      this.pages.push(new Page(blocks, this.blockMap, this.options));
     }
   }
 
