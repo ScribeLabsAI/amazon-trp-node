@@ -40,3 +40,23 @@ describe('Rows from table created correctly', () => {
     }
   });
 });
+
+describe('MERGED_CELL expansion', () => {
+  it('ignores MERGED_CELL blocks by default', async () => {
+    const expected = await readFile(join(root, 'merged', 'withoutExpansion.txt'), 'utf8');
+    const blocks = JSON.parse(await readFile(join(root, 'merged', 'blocks.json'), 'utf8'));
+
+    const doc = new Document(blocks);
+
+    expect(doc.pages?.[0]?.tables?.[0]?.toString()).toEqual(expected);
+  });
+
+  it('merges content of cells with `expandMergedTableCells` option', async () => {
+    const expected = await readFile(join(root, 'merged', 'withExpansion.txt'), 'utf8');
+    const blocks = JSON.parse(await readFile(join(root, 'merged', 'blocks.json'), 'utf8'));
+
+    const doc = new Document(blocks, { expandMergedTableCells: true });
+
+    expect(doc.pages?.[0]?.tables?.[0]?.toString()).toEqual(expected);
+  });
+});

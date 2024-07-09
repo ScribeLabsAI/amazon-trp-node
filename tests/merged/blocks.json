@@ -1,0 +1,2309 @@
+[
+  {
+    "BlockType": "PAGE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": null,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": { "Height": 1, "Left": 0, "Top": 0, "Width": 1 },
+      "Polygon": [
+        { "X": 0.0000014045730267753243, "Y": 0 },
+        { "X": 1, "Y": 0.0000013562021194957197 },
+        { "X": 1, "Y": 1 },
+        { "X": 0, "Y": 1 }
+      ]
+    },
+    "Hint": null,
+    "Id": "2ca43605-a259-4bb2-9da6-d76533490fb1",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [
+      {
+        "Ids": [
+          "f8ea88d5-3763-4be2-81d7-6c525c64ff31",
+          "7caff402-6a89-4586-a27b-d23798732cb2",
+          "e98071e0-442a-46ac-8029-3c86e24bb235",
+          "a6afdce8-6c8c-4e03-bee4-8042bcfd65c2",
+          "821a17fd-5a1f-4eae-9fd1-6244f20c6e35",
+          "22d242ea-25fc-4963-a95a-a017912cea10",
+          "071a6311-eb51-4878-9875-93cb22c05f7b",
+          "6b5b2985-8cbe-43c2-af86-2427d9873ec5",
+          "f6bb6a91-d907-4ed0-b47a-6797d6d79d79",
+          "980d648c-9d31-46ef-86cd-68e7230db3f5",
+          "91122526-e52e-426d-9bfe-dcca69732b9e",
+          "e301ea05-cfc7-4caa-91af-7cbac9c723e3",
+          "48e9965e-8e4a-49a6-80da-82aa46be89df",
+          "9e5d57b9-9278-40b2-84af-fa81136ad4ce",
+          "b0bdf65f-172f-486d-a5b5-3d7206ec8593",
+          "bbf7f8b8-f2f8-4065-9aea-63baa5551891",
+          "b1afac3a-b861-4aea-910d-4fdc2da7b222",
+          "6c4d214e-4b75-482d-8a04-bb23e9e04aad",
+          "054882ba-3e1f-4fd0-9074-b6b4579c1e37",
+          "a1ff1465-f5e9-4caf-8f75-3769b4123926",
+          "15df9713-b8d1-4c61-aa02-2566b680398e"
+        ],
+        "Type": "CHILD"
+      }
+    ],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.98450469970703,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010947548784315586,
+        "Left": 0.28036782145500183,
+        "Top": 0.11182631552219391,
+        "Width": 0.02846655808389187
+      },
+      "Polygon": [
+        { "X": 0.2803787887096405, "Y": 0.11182631552219391 },
+        { "X": 0.30883437395095825, "Y": 0.11186176538467407 },
+        { "X": 0.30882352590560913, "Y": 0.12277386337518692 },
+        { "X": 0.28036782145500183, "Y": 0.12273837625980377 }
+      ]
+    },
+    "Hint": null,
+    "Id": "f8ea88d5-3763-4be2-81d7-6c525c64ff31",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["bf31f67f-c8ca-4af0-b500-63612b4a2c5b"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "Old",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.9901351928711,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010797577910125256,
+        "Left": 0.5827009677886963,
+        "Top": 0.1118338406085968,
+        "Width": 0.03677782043814659
+      },
+      "Polygon": [
+        { "X": 0.582710325717926, "Y": 0.1118338406085968 },
+        { "X": 0.6194788217544556, "Y": 0.11187964677810669 },
+        { "X": 0.6194697022438049, "Y": 0.12263142317533493 },
+        { "X": 0.5827009677886963, "Y": 0.12258557230234146 }
+      ]
+    },
+    "Hint": null,
+    "Id": "7caff402-6a89-4586-a27b-d23798732cb2",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["dce10c17-aae8-465a-a3ee-a23097eee0c9"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "New",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.94890594482422,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.011005043983459473,
+        "Left": 0.28043413162231445,
+        "Top": 0.14011183381080627,
+        "Width": 0.07345456629991531
+      },
+      "Polygon": [
+        { "X": 0.2804451286792755, "Y": 0.14011183381080627 },
+        { "X": 0.35388872027397156, "Y": 0.1402035653591156 },
+        { "X": 0.35387808084487915, "Y": 0.15111687779426575 },
+        { "X": 0.28043413162231445, "Y": 0.15102504193782806 }
+      ]
+    },
+    "Hint": null,
+    "Id": "e98071e0-442a-46ac-8029-3c86e24bb235",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["98adc4be-6074-470a-9da0-ac9e3a417507"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "Revenue",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.92952728271484,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.01083083264529705,
+        "Left": 0.43176406621932983,
+        "Top": 0.14009013772010803,
+        "Width": 0.04341955855488777
+      },
+      "Polygon": [
+        { "X": 0.4317741394042969, "Y": 0.14009013772010803 },
+        { "X": 0.4751836061477661, "Y": 0.14014436304569244 },
+        { "X": 0.4751737415790558, "Y": 0.15092097222805023 },
+        { "X": 0.43176406621932983, "Y": 0.15086670219898224 }
+      ]
+    },
+    "Hint": null,
+    "Id": "a6afdce8-6c8c-4e03-bee4-8042bcfd65c2",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["22cee297-6453-4ed0-ac23-16d5a44d2140"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "Profit",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.97476959228516,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.011104860343039036,
+        "Left": 0.5828109383583069,
+        "Top": 0.14005784690380096,
+        "Width": 0.07329413294792175
+      },
+      "Polygon": [
+        { "X": 0.582820475101471, "Y": 0.14005784690380096 },
+        { "X": 0.656105101108551, "Y": 0.14014936983585358 },
+        { "X": 0.6560959219932556, "Y": 0.15116269886493683 },
+        { "X": 0.5828109383583069, "Y": 0.15107107162475586 }
+      ]
+    },
+    "Hint": null,
+    "Id": "821a17fd-5a1f-4eae-9fd1-6244f20c6e35",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["2412dd06-c850-4e2c-a16a-a4fdffad6501"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "Revenue",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.91902923583984,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010912138037383556,
+        "Left": 0.7337587475776672,
+        "Top": 0.14006713032722473,
+        "Width": 0.04357573762536049
+      },
+      "Polygon": [
+        { "X": 0.7337673902511597, "Y": 0.14006713032722473 },
+        { "X": 0.777334451675415, "Y": 0.14012154936790466 },
+        { "X": 0.7773260474205017, "Y": 0.15097926557064056 },
+        { "X": 0.7337587475776672, "Y": 0.15092480182647705 }
+      ]
+    },
+    "Hint": null,
+    "Id": "22d242ea-25fc-4963-a95a-a017912cea10",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["420c750a-c79c-41da-bd15-12c7c26ec80f"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "Profit",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.97477722167969,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.012913757935166359,
+        "Left": 0.12915948033332825,
+        "Top": 0.16898441314697266,
+        "Width": 0.06567615270614624
+      },
+      "Polygon": [
+        { "X": 0.12917332351207733, "Y": 0.16898441314697266 },
+        { "X": 0.1948356330394745, "Y": 0.1690666526556015 },
+        { "X": 0.19482219219207764, "Y": 0.18189817667007446 },
+        { "X": 0.12915948033332825, "Y": 0.18181584775447845 }
+      ]
+    },
+    "Hint": null,
+    "Id": "071a6311-eb51-4878-9875-93cb22c05f7b",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["bc459ace-5d10-4dea-ae1c-be362a58b575"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "January",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.92247009277344,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.009793356992304325,
+        "Left": 0.2816092371940613,
+        "Top": 0.16907353699207306,
+        "Width": 0.006433502305299044
+      },
+      "Polygon": [
+        { "X": 0.2816191017627716, "Y": 0.16907353699207306 },
+        { "X": 0.28804275393486023, "Y": 0.16908158361911774 },
+        { "X": 0.2880329191684723, "Y": 0.1788668930530548 },
+        { "X": 0.2816092371940613, "Y": 0.17885884642601013 }
+      ]
+    },
+    "Hint": null,
+    "Id": "6b5b2985-8cbe-43c2-af86-2427d9873ec5",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["579b994f-3d11-4d72-96bd-42485ae75ec3"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "1",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.95980834960938,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.011029534973204136,
+        "Left": 0.43153876066207886,
+        "Top": 0.16833683848381042,
+        "Width": 0.010703238658607006
+      },
+      "Polygon": [
+        { "X": 0.431549072265625, "Y": 0.16833683848381042 },
+        { "X": 0.44224199652671814, "Y": 0.1683502346277237 },
+        { "X": 0.4422317445278168, "Y": 0.17936637997627258 },
+        { "X": 0.43153876066207886, "Y": 0.17935298383235931 }
+      ]
+    },
+    "Hint": null,
+    "Id": "f6bb6a91-d907-4ed0-b47a-6797d6d79d79",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["65e591cc-8f6d-4f3f-9ef6-88bd2e2ac03a"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "2",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.96295928955078,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010491658933460712,
+        "Left": 0.5825764536857605,
+        "Top": 0.1687704473733902,
+        "Width": 0.00971145462244749
+      },
+      "Polygon": [
+        { "X": 0.5825855135917664, "Y": 0.1687704473733902 },
+        { "X": 0.5922878980636597, "Y": 0.16878259181976318 },
+        { "X": 0.5922788977622986, "Y": 0.17926210165023804 },
+        { "X": 0.5825764536857605, "Y": 0.17924994230270386 }
+      ]
+    },
+    "Hint": null,
+    "Id": "980d648c-9d31-46ef-86cd-68e7230db3f5",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["774db782-6c24-4da1-b8dc-a54efe9f25ee"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "3",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.91775512695312,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010035203769803047,
+        "Left": 0.7332496643066406,
+        "Top": 0.1690041869878769,
+        "Width": 0.009859460406005383
+      },
+      "Polygon": [
+        { "X": 0.7332575917243958, "Y": 0.1690041869878769 },
+        { "X": 0.7431091070175171, "Y": 0.1690165251493454 },
+        { "X": 0.743101179599762, "Y": 0.17903940379619598 },
+        { "X": 0.7332496643066406, "Y": 0.17902705073356628 }
+      ]
+    },
+    "Hint": null,
+    "Id": "91122526-e52e-426d-9bfe-dcca69732b9e",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["131cd79a-a9f8-4e80-8217-6e41d1ec97a4"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "4",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.97003936767578,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.013639336451888084,
+        "Left": 0.12962201237678528,
+        "Top": 0.19677574932575226,
+        "Width": 0.07388029247522354
+      },
+      "Polygon": [
+        { "X": 0.12963661551475525, "Y": 0.19677574932575226 },
+        { "X": 0.20350229740142822, "Y": 0.19686847925186157 },
+        { "X": 0.20348817110061646, "Y": 0.2104150801897049 },
+        { "X": 0.12962201237678528, "Y": 0.21032223105430603 }
+      ]
+    },
+    "Hint": null,
+    "Id": "e301ea05-cfc7-4caa-91af-7cbac9c723e3",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["e35ee6d4-50b6-4a57-acf3-7cb92ce7a87e"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "February",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.97663879394531,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.009964357130229473,
+        "Left": 0.2806803584098816,
+        "Top": 0.1972864270210266,
+        "Width": 0.009355312213301659
+      },
+      "Polygon": [
+        { "X": 0.28069037199020386, "Y": 0.1972864270210266 },
+        { "X": 0.2900356650352478, "Y": 0.19729815423488617 },
+        { "X": 0.2900256812572479, "Y": 0.20725078880786896 },
+        { "X": 0.2806803584098816, "Y": 0.2072390466928482 }
+      ]
+    },
+    "Hint": null,
+    "Id": "48e9965e-8e4a-49a6-80da-82aa46be89df",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["03737504-e750-4478-b090-176e7a700f73"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "5",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.98295593261719,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.01017943024635315,
+        "Left": 0.43132442235946655,
+        "Top": 0.1972448080778122,
+        "Width": 0.009790006093680859
+      },
+      "Polygon": [
+        { "X": 0.4313339293003082, "Y": 0.1972448080778122 },
+        { "X": 0.4411144256591797, "Y": 0.19725708663463593 },
+        { "X": 0.4411049485206604, "Y": 0.20742423832416534 },
+        { "X": 0.43132442235946655, "Y": 0.20741194486618042 }
+      ]
+    },
+    "Hint": null,
+    "Id": "9e5d57b9-9278-40b2-84af-fa81136ad4ce",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["0684883b-c75d-4726-b899-05aca925ac03"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "6",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.96915435791016,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010081415995955467,
+        "Left": 0.5826672911643982,
+        "Top": 0.19712798297405243,
+        "Width": 0.009570515714585781
+      },
+      "Polygon": [
+        { "X": 0.5826759934425354, "Y": 0.19712798297405243 },
+        { "X": 0.5922378301620483, "Y": 0.19713999330997467 },
+        { "X": 0.5922291278839111, "Y": 0.20720940828323364 },
+        { "X": 0.5826672911643982, "Y": 0.2071973830461502 }
+      ]
+    },
+    "Hint": null,
+    "Id": "b0bdf65f-172f-486d-a5b5-3d7206ec8593",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["9929f0f6-8910-4c84-92d7-6ce5f09260ac"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "7",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.9617919921875,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010111727751791477,
+        "Left": 0.7336068153381348,
+        "Top": 0.19725622236728668,
+        "Width": 0.009381166659295559
+      },
+      "Polygon": [
+        { "X": 0.7336148619651794, "Y": 0.19725622236728668 },
+        { "X": 0.7429879903793335, "Y": 0.19726799428462982 },
+        { "X": 0.7429800033569336, "Y": 0.20736795663833618 },
+        { "X": 0.7336068153381348, "Y": 0.20735616981983185 }
+      ]
+    },
+    "Hint": null,
+    "Id": "bbf7f8b8-f2f8-4065-9aea-63baa5551891",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["cfb572b4-7496-45ca-8a68-17cbbba962f1"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "8",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.98080444335938,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.009829685091972351,
+        "Left": 0.2804836332798004,
+        "Top": 0.22603511810302734,
+        "Width": 0.009627151302993298
+      },
+      "Polygon": [
+        { "X": 0.28049349784851074, "Y": 0.22603511810302734 },
+        { "X": 0.2901107668876648, "Y": 0.22604723274707794 },
+        { "X": 0.29010093212127686, "Y": 0.2358648031949997 },
+        { "X": 0.2804836332798004, "Y": 0.2358526885509491 }
+      ]
+    },
+    "Hint": null,
+    "Id": "b1afac3a-b861-4aea-910d-4fdc2da7b222",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["ad0dbec2-8947-4013-b007-cb07143fe138"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "9",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.98968505859375,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010301979258656502,
+        "Left": 0.43275129795074463,
+        "Top": 0.22569940984249115,
+        "Width": 0.01875421032309532
+      },
+      "Polygon": [
+        { "X": 0.43276092410087585, "Y": 0.22569940984249115 },
+        { "X": 0.45150551199913025, "Y": 0.225722998380661 },
+        { "X": 0.4514960050582886, "Y": 0.2360013872385025 },
+        { "X": 0.43275129795074463, "Y": 0.23597776889801025 }
+      ]
+    },
+    "Hint": null,
+    "Id": "6c4d214e-4b75-482d-8a04-bb23e9e04aad",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["98d2d63b-47a0-4893-ab42-7dd41089167a"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "10",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.98413848876953,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010186056606471539,
+        "Left": 0.583783745765686,
+        "Top": 0.22566784918308258,
+        "Width": 0.015608596615493298
+      },
+      "Polygon": [
+        { "X": 0.583792507648468, "Y": 0.22566784918308258 },
+        { "X": 0.599392294883728, "Y": 0.22568748891353607 },
+        { "X": 0.5993835926055908, "Y": 0.235853910446167 },
+        { "X": 0.583783745765686, "Y": 0.2358342558145523 }
+      ]
+    },
+    "Hint": null,
+    "Id": "054882ba-3e1f-4fd0-9074-b6b4579c1e37",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["22bb6b9b-e964-4e33-94f8-490f66b35516"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "11",
+    "TextType": null
+  },
+  {
+    "BlockType": "LINE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.94451904296875,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010067451745271683,
+        "Left": 0.7344663739204407,
+        "Top": 0.2256671041250229,
+        "Width": 0.019360151141881943
+      },
+      "Polygon": [
+        { "X": 0.7344743013381958, "Y": 0.2256671041250229 },
+        { "X": 0.7538264989852905, "Y": 0.22569146752357483 },
+        { "X": 0.7538186311721802, "Y": 0.23573455214500427 },
+        { "X": 0.7344663739204407, "Y": 0.23571017384529114 }
+      ]
+    },
+    "Hint": null,
+    "Id": "a1ff1465-f5e9-4caf-8f75-3769b4123926",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["13dbd492-0a45-4abc-849b-31fba09ee4ba"], "Type": "CHILD" }],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "12",
+    "TextType": null
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.98450469970703,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010947548784315586,
+        "Left": 0.28036782145500183,
+        "Top": 0.11182631552219391,
+        "Width": 0.02846655808389187
+      },
+      "Polygon": [
+        { "X": 0.2803787887096405, "Y": 0.11182631552219391 },
+        { "X": 0.30883437395095825, "Y": 0.11186176538467407 },
+        { "X": 0.30882352590560913, "Y": 0.12277386337518692 },
+        { "X": 0.28036782145500183, "Y": 0.12273837625980377 }
+      ]
+    },
+    "Hint": null,
+    "Id": "bf31f67f-c8ca-4af0-b500-63612b4a2c5b",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "Old",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.9901351928711,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010797577910125256,
+        "Left": 0.5827009677886963,
+        "Top": 0.1118338406085968,
+        "Width": 0.03677782043814659
+      },
+      "Polygon": [
+        { "X": 0.582710325717926, "Y": 0.1118338406085968 },
+        { "X": 0.6194788217544556, "Y": 0.11187964677810669 },
+        { "X": 0.6194697022438049, "Y": 0.12263142317533493 },
+        { "X": 0.5827009677886963, "Y": 0.12258557230234146 }
+      ]
+    },
+    "Hint": null,
+    "Id": "dce10c17-aae8-465a-a3ee-a23097eee0c9",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "New",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.94890594482422,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.011005043983459473,
+        "Left": 0.28043413162231445,
+        "Top": 0.14011183381080627,
+        "Width": 0.07345456629991531
+      },
+      "Polygon": [
+        { "X": 0.2804451286792755, "Y": 0.14011183381080627 },
+        { "X": 0.35388872027397156, "Y": 0.1402035653591156 },
+        { "X": 0.35387808084487915, "Y": 0.15111687779426575 },
+        { "X": 0.28043413162231445, "Y": 0.15102504193782806 }
+      ]
+    },
+    "Hint": null,
+    "Id": "98adc4be-6074-470a-9da0-ac9e3a417507",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "Revenue",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.92952728271484,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.01083083264529705,
+        "Left": 0.43176406621932983,
+        "Top": 0.14009013772010803,
+        "Width": 0.04341955855488777
+      },
+      "Polygon": [
+        { "X": 0.4317741394042969, "Y": 0.14009013772010803 },
+        { "X": 0.4751836061477661, "Y": 0.14014436304569244 },
+        { "X": 0.4751737415790558, "Y": 0.15092097222805023 },
+        { "X": 0.43176406621932983, "Y": 0.15086670219898224 }
+      ]
+    },
+    "Hint": null,
+    "Id": "22cee297-6453-4ed0-ac23-16d5a44d2140",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "Profit",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.97476959228516,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.011104860343039036,
+        "Left": 0.5828109383583069,
+        "Top": 0.14005784690380096,
+        "Width": 0.07329413294792175
+      },
+      "Polygon": [
+        { "X": 0.582820475101471, "Y": 0.14005784690380096 },
+        { "X": 0.656105101108551, "Y": 0.14014936983585358 },
+        { "X": 0.6560959219932556, "Y": 0.15116269886493683 },
+        { "X": 0.5828109383583069, "Y": 0.15107107162475586 }
+      ]
+    },
+    "Hint": null,
+    "Id": "2412dd06-c850-4e2c-a16a-a4fdffad6501",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "Revenue",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.91902923583984,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010912138037383556,
+        "Left": 0.7337587475776672,
+        "Top": 0.14006713032722473,
+        "Width": 0.04357573762536049
+      },
+      "Polygon": [
+        { "X": 0.7337673902511597, "Y": 0.14006713032722473 },
+        { "X": 0.777334451675415, "Y": 0.14012154936790466 },
+        { "X": 0.7773260474205017, "Y": 0.15097926557064056 },
+        { "X": 0.7337587475776672, "Y": 0.15092480182647705 }
+      ]
+    },
+    "Hint": null,
+    "Id": "420c750a-c79c-41da-bd15-12c7c26ec80f",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "Profit",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.97477722167969,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.012913757935166359,
+        "Left": 0.12915948033332825,
+        "Top": 0.16898441314697266,
+        "Width": 0.06567615270614624
+      },
+      "Polygon": [
+        { "X": 0.12917332351207733, "Y": 0.16898441314697266 },
+        { "X": 0.1948356330394745, "Y": 0.1690666526556015 },
+        { "X": 0.19482219219207764, "Y": 0.18189817667007446 },
+        { "X": 0.12915948033332825, "Y": 0.18181584775447845 }
+      ]
+    },
+    "Hint": null,
+    "Id": "bc459ace-5d10-4dea-ae1c-be362a58b575",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "January",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.92247009277344,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.009793356992304325,
+        "Left": 0.2816092371940613,
+        "Top": 0.16907353699207306,
+        "Width": 0.006433502305299044
+      },
+      "Polygon": [
+        { "X": 0.2816191017627716, "Y": 0.16907353699207306 },
+        { "X": 0.28804275393486023, "Y": 0.16908158361911774 },
+        { "X": 0.2880329191684723, "Y": 0.1788668930530548 },
+        { "X": 0.2816092371940613, "Y": 0.17885884642601013 }
+      ]
+    },
+    "Hint": null,
+    "Id": "579b994f-3d11-4d72-96bd-42485ae75ec3",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "1",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.95980834960938,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.011029534973204136,
+        "Left": 0.43153876066207886,
+        "Top": 0.16833683848381042,
+        "Width": 0.010703238658607006
+      },
+      "Polygon": [
+        { "X": 0.431549072265625, "Y": 0.16833683848381042 },
+        { "X": 0.44224199652671814, "Y": 0.1683502346277237 },
+        { "X": 0.4422317445278168, "Y": 0.17936637997627258 },
+        { "X": 0.43153876066207886, "Y": 0.17935298383235931 }
+      ]
+    },
+    "Hint": null,
+    "Id": "65e591cc-8f6d-4f3f-9ef6-88bd2e2ac03a",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "2",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.96295928955078,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010491658933460712,
+        "Left": 0.5825764536857605,
+        "Top": 0.1687704473733902,
+        "Width": 0.00971145462244749
+      },
+      "Polygon": [
+        { "X": 0.5825855135917664, "Y": 0.1687704473733902 },
+        { "X": 0.5922878980636597, "Y": 0.16878259181976318 },
+        { "X": 0.5922788977622986, "Y": 0.17926210165023804 },
+        { "X": 0.5825764536857605, "Y": 0.17924994230270386 }
+      ]
+    },
+    "Hint": null,
+    "Id": "774db782-6c24-4da1-b8dc-a54efe9f25ee",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "3",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.91775512695312,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010035203769803047,
+        "Left": 0.7332496643066406,
+        "Top": 0.1690041869878769,
+        "Width": 0.009859460406005383
+      },
+      "Polygon": [
+        { "X": 0.7332575917243958, "Y": 0.1690041869878769 },
+        { "X": 0.7431091070175171, "Y": 0.1690165251493454 },
+        { "X": 0.743101179599762, "Y": 0.17903940379619598 },
+        { "X": 0.7332496643066406, "Y": 0.17902705073356628 }
+      ]
+    },
+    "Hint": null,
+    "Id": "131cd79a-a9f8-4e80-8217-6e41d1ec97a4",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "4",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.97003936767578,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.013639336451888084,
+        "Left": 0.12962201237678528,
+        "Top": 0.19677574932575226,
+        "Width": 0.07388029247522354
+      },
+      "Polygon": [
+        { "X": 0.12963661551475525, "Y": 0.19677574932575226 },
+        { "X": 0.20350229740142822, "Y": 0.19686847925186157 },
+        { "X": 0.20348817110061646, "Y": 0.2104150801897049 },
+        { "X": 0.12962201237678528, "Y": 0.21032223105430603 }
+      ]
+    },
+    "Hint": null,
+    "Id": "e35ee6d4-50b6-4a57-acf3-7cb92ce7a87e",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "February",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.97663879394531,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.009964357130229473,
+        "Left": 0.2806803584098816,
+        "Top": 0.1972864270210266,
+        "Width": 0.009355312213301659
+      },
+      "Polygon": [
+        { "X": 0.28069037199020386, "Y": 0.1972864270210266 },
+        { "X": 0.2900356650352478, "Y": 0.19729815423488617 },
+        { "X": 0.2900256812572479, "Y": 0.20725078880786896 },
+        { "X": 0.2806803584098816, "Y": 0.2072390466928482 }
+      ]
+    },
+    "Hint": null,
+    "Id": "03737504-e750-4478-b090-176e7a700f73",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "5",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.98295593261719,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.01017943024635315,
+        "Left": 0.43132442235946655,
+        "Top": 0.1972448080778122,
+        "Width": 0.009790006093680859
+      },
+      "Polygon": [
+        { "X": 0.4313339293003082, "Y": 0.1972448080778122 },
+        { "X": 0.4411144256591797, "Y": 0.19725708663463593 },
+        { "X": 0.4411049485206604, "Y": 0.20742423832416534 },
+        { "X": 0.43132442235946655, "Y": 0.20741194486618042 }
+      ]
+    },
+    "Hint": null,
+    "Id": "0684883b-c75d-4726-b899-05aca925ac03",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "6",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.96915435791016,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010081415995955467,
+        "Left": 0.5826672911643982,
+        "Top": 0.19712798297405243,
+        "Width": 0.009570515714585781
+      },
+      "Polygon": [
+        { "X": 0.5826759934425354, "Y": 0.19712798297405243 },
+        { "X": 0.5922378301620483, "Y": 0.19713999330997467 },
+        { "X": 0.5922291278839111, "Y": 0.20720940828323364 },
+        { "X": 0.5826672911643982, "Y": 0.2071973830461502 }
+      ]
+    },
+    "Hint": null,
+    "Id": "9929f0f6-8910-4c84-92d7-6ce5f09260ac",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "7",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.9617919921875,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010111727751791477,
+        "Left": 0.7336068153381348,
+        "Top": 0.19725622236728668,
+        "Width": 0.009381166659295559
+      },
+      "Polygon": [
+        { "X": 0.7336148619651794, "Y": 0.19725622236728668 },
+        { "X": 0.7429879903793335, "Y": 0.19726799428462982 },
+        { "X": 0.7429800033569336, "Y": 0.20736795663833618 },
+        { "X": 0.7336068153381348, "Y": 0.20735616981983185 }
+      ]
+    },
+    "Hint": null,
+    "Id": "cfb572b4-7496-45ca-8a68-17cbbba962f1",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "8",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.98080444335938,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.009829685091972351,
+        "Left": 0.2804836332798004,
+        "Top": 0.22603511810302734,
+        "Width": 0.009627151302993298
+      },
+      "Polygon": [
+        { "X": 0.28049349784851074, "Y": 0.22603511810302734 },
+        { "X": 0.2901107668876648, "Y": 0.22604723274707794 },
+        { "X": 0.29010093212127686, "Y": 0.2358648031949997 },
+        { "X": 0.2804836332798004, "Y": 0.2358526885509491 }
+      ]
+    },
+    "Hint": null,
+    "Id": "ad0dbec2-8947-4013-b007-cb07143fe138",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "9",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.98968505859375,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010301979258656502,
+        "Left": 0.43275129795074463,
+        "Top": 0.22569940984249115,
+        "Width": 0.01875421032309532
+      },
+      "Polygon": [
+        { "X": 0.43276092410087585, "Y": 0.22569940984249115 },
+        { "X": 0.45150551199913025, "Y": 0.225722998380661 },
+        { "X": 0.4514960050582886, "Y": 0.2360013872385025 },
+        { "X": 0.43275129795074463, "Y": 0.23597776889801025 }
+      ]
+    },
+    "Hint": null,
+    "Id": "98d2d63b-47a0-4893-ab42-7dd41089167a",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "10",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.98413848876953,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010186056606471539,
+        "Left": 0.583783745765686,
+        "Top": 0.22566784918308258,
+        "Width": 0.015608596615493298
+      },
+      "Polygon": [
+        { "X": 0.583792507648468, "Y": 0.22566784918308258 },
+        { "X": 0.599392294883728, "Y": 0.22568748891353607 },
+        { "X": 0.5993835926055908, "Y": 0.235853910446167 },
+        { "X": 0.583783745765686, "Y": 0.2358342558145523 }
+      ]
+    },
+    "Hint": null,
+    "Id": "22bb6b9b-e964-4e33-94f8-490f66b35516",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "11",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "WORD",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.94451904296875,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.010067451745271683,
+        "Left": 0.7344663739204407,
+        "Top": 0.2256671041250229,
+        "Width": 0.019360151141881943
+      },
+      "Polygon": [
+        { "X": 0.7344743013381958, "Y": 0.2256671041250229 },
+        { "X": 0.7538264989852905, "Y": 0.22569146752357483 },
+        { "X": 0.7538186311721802, "Y": 0.23573455214500427 },
+        { "X": 0.7344663739204407, "Y": 0.23571017384529114 }
+      ]
+    },
+    "Hint": null,
+    "Id": "13dbd492-0a45-4abc-849b-31fba09ee4ba",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": "12",
+    "TextType": "PRINTED"
+  },
+  {
+    "BlockType": "TABLE",
+    "ColumnIndex": null,
+    "ColumnSpan": null,
+    "Confidence": 99.853515625,
+    "EntityTypes": ["STRUCTURED_TABLE"],
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.14348547160625458,
+        "Left": 0.12173741310834885,
+        "Top": 0.10204269737005234,
+        "Width": 0.755425214767456
+      },
+      "Polygon": [
+        { "X": 0.12189159542322159, "Y": 0.10204269737005234 },
+        { "X": 0.8771626353263855, "Y": 0.10298283398151398 },
+        { "X": 0.8770589828491211, "Y": 0.24552816152572632 },
+        { "X": 0.12173741310834885, "Y": 0.24457578361034393 }
+      ]
+    },
+    "Hint": null,
+    "Id": "15df9713-b8d1-4c61-aa02-2566b680398e",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [
+      {
+        "Ids": [
+          "63bc07d5-42d7-419a-a79e-c9bf950cb5ef",
+          "c3149f55-6f43-48e2-97f9-b9f304c87394",
+          "82f62e6f-cfaa-49e6-b84e-38a286b457c0",
+          "609f3251-b0b8-4a84-9eca-a8fcc347078d",
+          "9c10ccbb-45db-4e64-a916-7767d953fa9b",
+          "a1157b14-0789-4412-90ef-60d4407225ef",
+          "8e41a407-9c5f-43c2-a70a-e464f9b4c9e5",
+          "7b32c1c2-f671-43c0-984a-f4c57a27dc3c",
+          "147a2eb3-8d88-4cef-8474-b28b2336c9af",
+          "dd95c0bd-5950-485d-bc9e-34ec359fea6d",
+          "d7aaeaac-a148-47b3-a75d-82a2a7250734",
+          "d182bc02-b020-4c37-9271-bd5eeaab3b3c",
+          "58496c3d-7602-4e74-875a-0e0ab210060a",
+          "77660820-986c-4068-ae58-6fb0fd700e37",
+          "86147223-d773-4317-bb7c-fab1f02a16c4",
+          "0197f237-4b8c-4bc8-b171-ea8eaa212fb8",
+          "3eab6e37-d412-487a-8ecf-68e16a924394",
+          "378f75b5-c189-4d99-887b-73199582c09f",
+          "5911d56c-5ddc-4f6b-8f20-058ad60eb92d",
+          "19f83ba0-5edc-41e5-a98b-569c451e9f1a",
+          "3198a7ed-46eb-43cd-80cb-677a8781a6cd",
+          "ebc3637d-ba2d-4ea7-bcfa-6ccc9886a42b",
+          "b11ff73c-e3f1-4574-8b40-811956fd608d",
+          "c6123550-89fe-406a-8ce6-9384465d22dd",
+          "018d1c09-ef20-426f-a16e-6d2224e6fb00"
+        ],
+        "Type": "CHILD"
+      },
+      {
+        "Ids": [
+          "4ea9d496-de61-4735-a8cf-4dceb494662e",
+          "6bb25ba6-9e2f-457e-919b-ed35810834ef",
+          "aad0c3e5-adc0-4fe0-81f9-9037d8dc7e38"
+        ],
+        "Type": "MERGED_CELL"
+      }
+    ],
+    "RowIndex": null,
+    "RowSpan": null,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 1,
+    "ColumnSpan": 1,
+    "Confidence": 93.603515625,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028883468359708786,
+        "Left": 0.1218605563044548,
+        "Top": 0.10204269737005234,
+        "Width": 0.15070904791355133
+      },
+      "Polygon": [
+        { "X": 0.12189159542322159, "Y": 0.10204269737005234 },
+        { "X": 0.27256959676742554, "Y": 0.1022302508354187 },
+        { "X": 0.2725405991077423, "Y": 0.13092616200447083 },
+        { "X": 0.1218605563044548, "Y": 0.13073810935020447 }
+      ]
+    },
+    "Hint": null,
+    "Id": "63bc07d5-42d7-419a-a79e-c9bf950cb5ef",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": 1,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 2,
+    "ColumnSpan": 1,
+    "Confidence": 89.74609375,
+    "EntityTypes": ["COLUMN_HEADER"],
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.02889053337275982,
+        "Left": 0.2725405991077423,
+        "Top": 0.10222405195236206,
+        "Width": 0.15100409090518951
+      },
+      "Polygon": [
+        { "X": 0.2725696265697479, "Y": 0.10222405195236206 },
+        { "X": 0.423544704914093, "Y": 0.10241197794675827 },
+        { "X": 0.42351770401000977, "Y": 0.13111458718776703 },
+        { "X": 0.2725405991077423, "Y": 0.13092616200447083 }
+      ]
+    },
+    "Hint": null,
+    "Id": "c3149f55-6f43-48e2-97f9-b9f304c87394",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["bf31f67f-c8ca-4af0-b500-63612b4a2c5b"], "Type": "CHILD" }],
+    "RowIndex": 1,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 3,
+    "ColumnSpan": 1,
+    "Confidence": 89.74609375,
+    "EntityTypes": ["COLUMN_HEADER"],
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028890443965792656,
+        "Left": 0.42351770401000977,
+        "Top": 0.10241197794675827,
+        "Width": 0.15053540468215942
+      },
+      "Polygon": [
+        { "X": 0.423544704914093, "Y": 0.10241197794675827 },
+        { "X": 0.5740531086921692, "Y": 0.10259933024644852 },
+        { "X": 0.5740281343460083, "Y": 0.13130241632461548 },
+        { "X": 0.42351770401000977, "Y": 0.13111458718776703 }
+      ]
+    },
+    "Hint": null,
+    "Id": "82f62e6f-cfaa-49e6-b84e-38a286b457c0",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": 1,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 4,
+    "ColumnSpan": 1,
+    "Confidence": 90.234375,
+    "EntityTypes": ["COLUMN_HEADER"],
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028892118483781815,
+        "Left": 0.5740281343460083,
+        "Top": 0.10259933024644852,
+        "Width": 0.15148216485977173
+      },
+      "Polygon": [
+        { "X": 0.5740531086921692, "Y": 0.10259933024644852 },
+        { "X": 0.72551029920578, "Y": 0.10278785973787308 },
+        { "X": 0.7254874110221863, "Y": 0.13149145245552063 },
+        { "X": 0.5740281343460083, "Y": 0.13130241632461548 }
+      ]
+    },
+    "Hint": null,
+    "Id": "609f3251-b0b8-4a84-9eca-a8fcc347078d",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["dce10c17-aae8-465a-a3ee-a23097eee0c9"], "Type": "CHILD" }],
+    "RowIndex": 1,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 5,
+    "ColumnSpan": 1,
+    "Confidence": 90.234375,
+    "EntityTypes": ["COLUMN_HEADER"],
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028892619535326958,
+        "Left": 0.7254874110221863,
+        "Top": 0.10278785973787308,
+        "Width": 0.15148532390594482
+      },
+      "Polygon": [
+        { "X": 0.72551029920578, "Y": 0.10278785973787308 },
+        { "X": 0.8769727349281311, "Y": 0.10297639667987823 },
+        { "X": 0.8769518733024597, "Y": 0.1316804736852646 },
+        { "X": 0.7254874110221863, "Y": 0.13149145245552063 }
+      ]
+    },
+    "Hint": null,
+    "Id": "9c10ccbb-45db-4e64-a916-7767d953fa9b",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": 1,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 1,
+    "ColumnSpan": 1,
+    "Confidence": 90.52734375,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028890935704112053,
+        "Left": 0.12182950973510742,
+        "Top": 0.13073810935020447,
+        "Width": 0.1507110893726349
+      },
+      "Polygon": [
+        { "X": 0.1218605563044548, "Y": 0.13073810935020447 },
+        { "X": 0.2725405991077423, "Y": 0.13092616200447083 },
+        { "X": 0.2725115716457367, "Y": 0.15962904691696167 },
+        { "X": 0.12182950973510742, "Y": 0.15944050252437592 }
+      ]
+    },
+    "Hint": null,
+    "Id": "a1157b14-0789-4412-90ef-60d4407225ef",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": 2,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 2,
+    "ColumnSpan": 1,
+    "Confidence": 89.306640625,
+    "EntityTypes": ["COLUMN_HEADER"],
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028891799971461296,
+        "Left": 0.2725115716457367,
+        "Top": 0.13092616200447083,
+        "Width": 0.15100613236427307
+      },
+      "Polygon": [
+        { "X": 0.2725405991077423, "Y": 0.13092616200447083 },
+        { "X": 0.42351770401000977, "Y": 0.13111458718776703 },
+        { "X": 0.4234907329082489, "Y": 0.15981796383857727 },
+        { "X": 0.2725115716457367, "Y": 0.15962904691696167 }
+      ]
+    },
+    "Hint": null,
+    "Id": "8e41a407-9c5f-43c2-a70a-e464f9b4c9e5",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["98adc4be-6074-470a-9da0-ac9e3a417507"], "Type": "CHILD" }],
+    "RowIndex": 2,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 3,
+    "ColumnSpan": 1,
+    "Confidence": 88.57421875,
+    "EntityTypes": ["COLUMN_HEADER"],
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028891708701848984,
+        "Left": 0.4234907329082489,
+        "Top": 0.13111458718776703,
+        "Width": 0.1505374312400818
+      },
+      "Polygon": [
+        { "X": 0.42351770401000977, "Y": 0.13111458718776703 },
+        { "X": 0.5740281343460083, "Y": 0.13130241632461548 },
+        { "X": 0.5740032196044922, "Y": 0.1600062996149063 },
+        { "X": 0.4234907329082489, "Y": 0.15981796383857727 }
+      ]
+    },
+    "Hint": null,
+    "Id": "7b32c1c2-f671-43c0-984a-f4c57a27dc3c",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["22cee297-6453-4ed0-ac23-16d5a44d2140"], "Type": "CHILD" }],
+    "RowIndex": 2,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 4,
+    "ColumnSpan": 1,
+    "Confidence": 90.4296875,
+    "EntityTypes": ["COLUMN_HEADER"],
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.02889338694512844,
+        "Left": 0.5740032196044922,
+        "Top": 0.13130241632461548,
+        "Width": 0.15148420631885529
+      },
+      "Polygon": [
+        { "X": 0.5740281343460083, "Y": 0.13130241632461548 },
+        { "X": 0.7254874110221863, "Y": 0.13149145245552063 },
+        { "X": 0.7254645228385925, "Y": 0.16019581258296967 },
+        { "X": 0.5740032196044922, "Y": 0.1600062996149063 }
+      ]
+    },
+    "Hint": null,
+    "Id": "147a2eb3-8d88-4cef-8474-b28b2336c9af",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["2412dd06-c850-4e2c-a16a-a4fdffad6501"], "Type": "CHILD" }],
+    "RowIndex": 2,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 5,
+    "ColumnSpan": 1,
+    "Confidence": 88.232421875,
+    "EntityTypes": ["COLUMN_HEADER"],
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028894124552607536,
+        "Left": 0.7254645228385925,
+        "Top": 0.13149145245552063,
+        "Width": 0.15167726576328278
+      },
+      "Polygon": [
+        { "X": 0.7254874110221863, "Y": 0.13149145245552063 },
+        { "X": 0.8771417737007141, "Y": 0.1316807121038437 },
+        { "X": 0.8771209120750427, "Y": 0.16038557887077332 },
+        { "X": 0.7254645228385925, "Y": 0.16019581258296967 }
+      ]
+    },
+    "Hint": null,
+    "Id": "dd95c0bd-5950-485d-bc9e-34ec359fea6d",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["420c750a-c79c-41da-bd15-12c7c26ec80f"], "Type": "CHILD" }],
+    "RowIndex": 2,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 1,
+    "ColumnSpan": 1,
+    "Confidence": 91.357421875,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.02889220044016838,
+        "Left": 0.12179845571517944,
+        "Top": 0.15944050252437592,
+        "Width": 0.15071311593055725
+      },
+      "Polygon": [
+        { "X": 0.12182950973510742, "Y": 0.15944050252437592 },
+        { "X": 0.2725115716457367, "Y": 0.15962904691696167 },
+        { "X": 0.27248257398605347, "Y": 0.1883327066898346 },
+        { "X": 0.12179845571517944, "Y": 0.18814367055892944 }
+      ]
+    },
+    "Hint": null,
+    "Id": "d7aaeaac-a148-47b3-a75d-82a2a7250734",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["bc459ace-5d10-4dea-ae1c-be362a58b575"], "Type": "CHILD" }],
+    "RowIndex": 3,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 2,
+    "ColumnSpan": 1,
+    "Confidence": 90.13671875,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028893066570162773,
+        "Left": 0.27248257398605347,
+        "Top": 0.15962904691696167,
+        "Width": 0.15100815892219543
+      },
+      "Polygon": [
+        { "X": 0.2725115716457367, "Y": 0.15962904691696167 },
+        { "X": 0.4234907329082489, "Y": 0.15981796383857727 },
+        { "X": 0.42346373200416565, "Y": 0.1885221153497696 },
+        { "X": 0.27248257398605347, "Y": 0.1883327066898346 }
+      ]
+    },
+    "Hint": null,
+    "Id": "d182bc02-b020-4c37-9271-bd5eeaab3b3c",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["579b994f-3d11-4d72-96bd-42485ae75ec3"], "Type": "CHILD" }],
+    "RowIndex": 3,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 3,
+    "ColumnSpan": 1,
+    "Confidence": 89.404296875,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.02889297343790531,
+        "Left": 0.42346373200416565,
+        "Top": 0.15981796383857727,
+        "Width": 0.15053945779800415
+      },
+      "Polygon": [
+        { "X": 0.4234907329082489, "Y": 0.15981796383857727 },
+        { "X": 0.5740032196044922, "Y": 0.1600062996149063 },
+        { "X": 0.5739782452583313, "Y": 0.18871092796325684 },
+        { "X": 0.42346373200416565, "Y": 0.1885221153497696 }
+      ]
+    },
+    "Hint": null,
+    "Id": "58496c3d-7602-4e74-875a-0e0ab210060a",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["65e591cc-8f6d-4f3f-9ef6-88bd2e2ac03a"], "Type": "CHILD" }],
+    "RowIndex": 3,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 4,
+    "ColumnSpan": 1,
+    "Confidence": 91.259765625,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028894655406475067,
+        "Left": 0.5739782452583313,
+        "Top": 0.1600062996149063,
+        "Width": 0.15148624777793884
+      },
+      "Polygon": [
+        { "X": 0.5740032196044922, "Y": 0.1600062996149063 },
+        { "X": 0.7254645228385925, "Y": 0.16019581258296967 },
+        { "X": 0.725441575050354, "Y": 0.18890094757080078 },
+        { "X": 0.5739782452583313, "Y": 0.18871092796325684 }
+      ]
+    },
+    "Hint": null,
+    "Id": "77660820-986c-4068-ae58-6fb0fd700e37",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["774db782-6c24-4da1-b8dc-a54efe9f25ee"], "Type": "CHILD" }],
+    "RowIndex": 3,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 5,
+    "ColumnSpan": 1,
+    "Confidence": 89.013671875,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028895394876599312,
+        "Left": 0.725441575050354,
+        "Top": 0.16019581258296967,
+        "Width": 0.15167930722236633
+      },
+      "Polygon": [
+        { "X": 0.7254645228385925, "Y": 0.16019581258296967 },
+        { "X": 0.8771209120750427, "Y": 0.16038557887077332 },
+        { "X": 0.8771000504493713, "Y": 0.18909120559692383 },
+        { "X": 0.725441575050354, "Y": 0.18890094757080078 }
+      ]
+    },
+    "Hint": null,
+    "Id": "86147223-d773-4317-bb7c-fab1f02a16c4",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["131cd79a-a9f8-4e80-8217-6e41d1ec97a4"], "Type": "CHILD" }],
+    "RowIndex": 3,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 1,
+    "ColumnSpan": 1,
+    "Confidence": 69.189453125,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.0288932416588068,
+        "Left": 0.121947281062603,
+        "Top": 0.18814389407634735,
+        "Width": 0.15053527057170868
+      },
+      "Polygon": [
+        { "X": 0.12197832763195038, "Y": 0.18814389407634735 },
+        { "X": 0.27248257398605347, "Y": 0.1883327066898346 },
+        { "X": 0.27245354652404785, "Y": 0.2170371413230896 },
+        { "X": 0.121947281062603, "Y": 0.21684783697128296 }
+      ]
+    },
+    "Hint": null,
+    "Id": "0197f237-4b8c-4bc8-b171-ea8eaa212fb8",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["e35ee6d4-50b6-4a57-acf3-7cb92ce7a87e"], "Type": "CHILD" }],
+    "RowIndex": 4,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 2,
+    "ColumnSpan": 1,
+    "Confidence": 87.353515625,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.02889433316886425,
+        "Left": 0.27245354652404785,
+        "Top": 0.1883327066898346,
+        "Width": 0.151010200381279
+      },
+      "Polygon": [
+        { "X": 0.27248257398605347, "Y": 0.1883327066898346 },
+        { "X": 0.42346373200416565, "Y": 0.1885221153497696 },
+        { "X": 0.4234367609024048, "Y": 0.217227041721344 },
+        { "X": 0.27245354652404785, "Y": 0.2170371413230896 }
+      ]
+    },
+    "Hint": null,
+    "Id": "3eab6e37-d412-487a-8ecf-68e16a924394",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["03737504-e750-4478-b090-176e7a700f73"], "Type": "CHILD" }],
+    "RowIndex": 4,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 3,
+    "ColumnSpan": 1,
+    "Confidence": 86.62109375,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.02889423817396164,
+        "Left": 0.4234367609024048,
+        "Top": 0.1885221153497696,
+        "Width": 0.1505414843559265
+      },
+      "Polygon": [
+        { "X": 0.42346373200416565, "Y": 0.1885221153497696 },
+        { "X": 0.5739782452583313, "Y": 0.18871092796325684 },
+        { "X": 0.5739532709121704, "Y": 0.21741634607315063 },
+        { "X": 0.4234367609024048, "Y": 0.217227041721344 }
+      ]
+    },
+    "Hint": null,
+    "Id": "378f75b5-c189-4d99-887b-73199582c09f",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["0684883b-c75d-4726-b899-05aca925ac03"], "Type": "CHILD" }],
+    "RowIndex": 4,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 4,
+    "ColumnSpan": 1,
+    "Confidence": 88.427734375,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028895923867821693,
+        "Left": 0.5739532709121704,
+        "Top": 0.18871092796325684,
+        "Width": 0.1514882892370224
+      },
+      "Polygon": [
+        { "X": 0.5739782452583313, "Y": 0.18871092796325684 },
+        { "X": 0.725441575050354, "Y": 0.18890094757080078 },
+        { "X": 0.7254186868667603, "Y": 0.21760685741901398 },
+        { "X": 0.5739532709121704, "Y": 0.21741634607315063 }
+      ]
+    },
+    "Hint": null,
+    "Id": "5911d56c-5ddc-4f6b-8f20-058ad60eb92d",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["9929f0f6-8910-4c84-92d7-6ce5f09260ac"], "Type": "CHILD" }],
+    "RowIndex": 4,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 5,
+    "ColumnSpan": 1,
+    "Confidence": 86.23046875,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.028896663337945938,
+        "Left": 0.7254186868667603,
+        "Top": 0.18890094757080078,
+        "Width": 0.15168136358261108
+      },
+      "Polygon": [
+        { "X": 0.725441575050354, "Y": 0.18890094757080078 },
+        { "X": 0.8771000504493713, "Y": 0.18909120559692383 },
+        { "X": 0.8770791292190552, "Y": 0.21779760718345642 },
+        { "X": 0.7254186868667603, "Y": 0.21760685741901398 }
+      ]
+    },
+    "Hint": null,
+    "Id": "19f83ba0-5edc-41e5-a98b-569c451e9f1a",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["cfb572b4-7496-45ca-8a68-17cbbba962f1"], "Type": "CHILD" }],
+    "RowIndex": 4,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 1,
+    "ColumnSpan": 1,
+    "Confidence": 69.189453125,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.027893148362636566,
+        "Left": 0.12191731482744217,
+        "Top": 0.21684783697128296,
+        "Width": 0.15053622424602509
+      },
+      "Polygon": [
+        { "X": 0.121947281062603, "Y": 0.21684783697128296 },
+        { "X": 0.27245354652404785, "Y": 0.2170371413230896 },
+        { "X": 0.2724255323410034, "Y": 0.24474097788333893 },
+        { "X": 0.12191731482744217, "Y": 0.24455121159553528 }
+      ]
+    },
+    "Hint": null,
+    "Id": "3198a7ed-46eb-43cd-80cb-677a8781a6cd",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": null,
+    "RowIndex": 5,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 2,
+    "ColumnSpan": 1,
+    "Confidence": 90.52734375,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.027919018641114235,
+        "Left": 0.27242550253868103,
+        "Top": 0.2170371413230896,
+        "Width": 0.15101124346256256
+      },
+      "Polygon": [
+        { "X": 0.27245354652404785, "Y": 0.2170371413230896 },
+        { "X": 0.4234367609024048, "Y": 0.217227041721344 },
+        { "X": 0.42341068387031555, "Y": 0.2449561506509781 },
+        { "X": 0.27242550253868103, "Y": 0.2447657734155655 }
+      ]
+    },
+    "Hint": null,
+    "Id": "ebc3637d-ba2d-4ea7-bcfa-6ccc9886a42b",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["ad0dbec2-8947-4013-b007-cb07143fe138"], "Type": "CHILD" }],
+    "RowIndex": 5,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 3,
+    "ColumnSpan": 1,
+    "Confidence": 89.74609375,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.02791890688240528,
+        "Left": 0.42341068387031555,
+        "Top": 0.217227041721344,
+        "Width": 0.15054260194301605
+      },
+      "Polygon": [
+        { "X": 0.4234367609024048, "Y": 0.217227041721344 },
+        { "X": 0.5739532709121704, "Y": 0.21741634607315063 },
+        { "X": 0.5739291906356812, "Y": 0.24514594674110413 },
+        { "X": 0.42341068387031555, "Y": 0.2449561506509781 }
+      ]
+    },
+    "Hint": null,
+    "Id": "b11ff73c-e3f1-4574-8b40-811956fd608d",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["98d2d63b-47a0-4893-ab42-7dd41089167a"], "Type": "CHILD" }],
+    "RowIndex": 5,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 4,
+    "ColumnSpan": 1,
+    "Confidence": 91.650390625,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.02792057767510414,
+        "Left": 0.5739291906356812,
+        "Top": 0.21741634607315063,
+        "Width": 0.1514894813299179
+      },
+      "Polygon": [
+        { "X": 0.5739532709121704, "Y": 0.21741634607315063 },
+        { "X": 0.7254186868667603, "Y": 0.21760685741901398 },
+        { "X": 0.7253965139389038, "Y": 0.24533693492412567 },
+        { "X": 0.5739291906356812, "Y": 0.24514594674110413 }
+      ]
+    },
+    "Hint": null,
+    "Id": "c6123550-89fe-406a-8ce6-9384465d22dd",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["22bb6b9b-e964-4e33-94f8-490f66b35516"], "Type": "CHILD" }],
+    "RowIndex": 5,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "CELL",
+    "ColumnIndex": 5,
+    "ColumnSpan": 1,
+    "Confidence": 89.404296875,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.027921300381422043,
+        "Left": 0.7253965139389038,
+        "Top": 0.21760685741901398,
+        "Width": 0.15168263018131256
+      },
+      "Polygon": [
+        { "X": 0.7254186868667603, "Y": 0.21760685741901398 },
+        { "X": 0.8770791292190552, "Y": 0.21779760718345642 },
+        { "X": 0.8770589828491211, "Y": 0.24552816152572632 },
+        { "X": 0.7253965139389038, "Y": 0.24533693492412567 }
+      ]
+    },
+    "Hint": null,
+    "Id": "018d1c09-ef20-426f-a16e-6d2224e6fb00",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [{ "Ids": ["13dbd492-0a45-4abc-849b-31fba09ee4ba"], "Type": "CHILD" }],
+    "RowIndex": 5,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "MERGED_CELL",
+    "ColumnIndex": 2,
+    "ColumnSpan": 2,
+    "Confidence": 89.74609375,
+    "EntityTypes": ["COLUMN_HEADER"],
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.029072169214487076,
+        "Left": 0.2725405991077423,
+        "Top": 0.1022302508354187,
+        "Width": 0.3015125095844269
+      },
+      "Polygon": [
+        { "X": 0.27256959676742554, "Y": 0.1022302508354187 },
+        { "X": 0.5740531086921692, "Y": 0.10260552912950516 },
+        { "X": 0.5740281343460083, "Y": 0.13130241632461548 },
+        { "X": 0.2725405991077423, "Y": 0.13092616200447083 }
+      ]
+    },
+    "Hint": null,
+    "Id": "4ea9d496-de61-4735-a8cf-4dceb494662e",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [
+      { "Ids": ["c3149f55-6f43-48e2-97f9-b9f304c87394", "82f62e6f-cfaa-49e6-b84e-38a286b457c0"], "Type": "CHILD" }
+    ],
+    "RowIndex": 1,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "MERGED_CELL",
+    "ColumnIndex": 4,
+    "ColumnSpan": 2,
+    "Confidence": 90.234375,
+    "EntityTypes": ["COLUMN_HEADER"],
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.02907518297433853,
+        "Left": 0.5740281343460083,
+        "Top": 0.10260552912950516,
+        "Width": 0.3031344711780548
+      },
+      "Polygon": [
+        { "X": 0.5740531086921692, "Y": 0.10260552912950516 },
+        { "X": 0.8771626353263855, "Y": 0.10298283398151398 },
+        { "X": 0.8771417737007141, "Y": 0.1316807121038437 },
+        { "X": 0.5740281343460083, "Y": 0.13130241632461548 }
+      ]
+    },
+    "Hint": null,
+    "Id": "6bb25ba6-9e2f-457e-919b-ed35810834ef",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [
+      { "Ids": ["609f3251-b0b8-4a84-9eca-a8fcc347078d", "9c10ccbb-45db-4e64-a916-7767d953fa9b"], "Type": "CHILD" }
+    ],
+    "RowIndex": 1,
+    "RowSpan": 1,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  },
+  {
+    "BlockType": "MERGED_CELL",
+    "ColumnIndex": 1,
+    "ColumnSpan": 1,
+    "Confidence": 69.189453125,
+    "EntityTypes": null,
+    "Geometry": {
+      "BoundingBox": {
+        "Height": 0.056622110307216644,
+        "Left": 0.12173741310834885,
+        "Top": 0.18814367055892944,
+        "Width": 0.15074515342712402
+      },
+      "Polygon": [
+        { "X": 0.12179845571517944, "Y": 0.18814367055892944 },
+        { "X": 0.27248257398605347, "Y": 0.1883327066898346 },
+        { "X": 0.27242550253868103, "Y": 0.2447657734155655 },
+        { "X": 0.12173741310834885, "Y": 0.24457578361034393 }
+      ]
+    },
+    "Hint": null,
+    "Id": "aad0c3e5-adc0-4fe0-81f9-9037d8dc7e38",
+    "Page": 1,
+    "PageClassification": null,
+    "Query": null,
+    "Relationships": [
+      { "Ids": ["0197f237-4b8c-4bc8-b171-ea8eaa212fb8", "3198a7ed-46eb-43cd-80cb-677a8781a6cd"], "Type": "CHILD" }
+    ],
+    "RowIndex": 4,
+    "RowSpan": 2,
+    "SelectionStatus": null,
+    "Text": null,
+    "TextType": null
+  }
+]
