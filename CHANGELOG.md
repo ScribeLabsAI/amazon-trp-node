@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.0](https://github.com/ScribeLabsAI/amazon-trp-node/compare/4.0.0...4.1.0) (2024-07-09)
+
+
+### Features
+
+* optionally expand MERGED_CELL blocks from table analysis ([#66](https://github.com/ScribeLabsAI/amazon-trp-node/issues/66)) ([a1e2790](https://github.com/ScribeLabsAI/amazon-trp-node/commit/a1e2790e7bbbae11533b0f56f2d0e0b3c71678b2))
+
 ## [4.0.0](https://github.com/ScribeLabsAI/amazon-trp-node/compare/3.0.8...4.0.0) (2024-02-01)
 
 
