@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.1](https://github.com/ScribeLabsAI/amazon-trp-node/compare/4.1.0...4.1.1) (2024-09-02)
+
+
+### Bug Fixes
+
+* table title can have null relationships ([#76](https://github.com/ScribeLabsAI/amazon-trp-node/issues/76)) ([40553d0](https://github.com/ScribeLabsAI/amazon-trp-node/commit/40553d038b531967702de9c7a71b4947cb0bd518))
+
 ## [4.1.0](https://github.com/ScribeLabsAI/amazon-trp-node/compare/4.0.0...4.1.0) (2024-07-09)
 
 
