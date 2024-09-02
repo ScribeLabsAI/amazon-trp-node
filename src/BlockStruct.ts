@@ -110,7 +110,9 @@ const TableTitleBlockSchema = BlockBaseSchema.extend({
   Relationships: object({
     Type: literal('CHILD'),
     Ids: string().array(),
-  }).array(),
+  })
+    .array()
+    .nullable(),
 });
 export type TableTitleBlock = zinfer<typeof TableTitleBlockSchema>;
 
